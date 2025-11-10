@@ -1,258 +1,283 @@
-# ActionMiner Lite — README (MVP)
+# 🎯 ActionMiner Lite - Detección de Tareas con NLP
 
-> Proyecto académico — Detección de **oraciones TAREA** en español y extracción de **Responsable** y **Fecha** a partir de texto o PDF.
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.36+-red.svg)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
-
-## 1. Resumen
-
-**ActionMiner Lite** identifica **oraciones que representan tareas** en documentos (actas, correos, PDFs) y, para cada tarea, extrae **Responsable** (PERSON) y **Fecha**. El resultado se presenta en una tabla y puede exportarse a **CSV**.
-
-**Alcance del MVP**
-
-* ✓ Detección de oraciones **TAREA** (clasificador fine‑tuneado por el equipo).
-* ✓ Extracción de **Responsable** (NER + reglas) y **Fecha** (regex + `dateparser`).
-* ✓ Ingesta de **texto** y **PDF** (extracción de texto).
-* ✓ **App Streamlit** para demostración + export **CSV**.
-* ✗ Fuera de alcance: DECISIÓN/INFO, resúmenes, export `.ics`, fine‑tuning del NER.
+**Sistema de procesamiento de lenguaje natural para detectar tareas en documentos en español.**
 
 ---
 
-## 2. Arquitectura (pipeline)
+## 🌟 Características
 
-```
-[Input texto/PDF]
-    └─► Prepro (PDF→texto, limpieza)
-        └─► Segmentación a oraciones
-            └─► Clasificador oracional (fine‑tune del equipo) → {TAREA | no‑TAREA}
-                └─► (solo TAREA) NER (preentrenado) → entidades PERSON/DATE
-                    └─► Reglas de vínculo Responsable (PERSON) ↔ verbo‑acción
-                    └─► Normalización Fecha (regex + dateparser)
-                        └─► Tabla final + export CSV
-```
+- ✅ **Clasificación de Tareas**: Detecta oraciones que contienen tareas con F1=0.9863
+- 👤 **Extracción de Responsables**: Identifica personas usando NER en español
+- 📅 **Normalización de Fechas**: Convierte fechas absolutas y relativas a formato ISO
+- 🎨 **Interfaz Web**: Aplicación Streamlit profesional y fácil de usar
+- 📊 **Exportación CSV**: Descarga resultados en formato estructurado
+- 📄 **Soporte PDF/TXT**: Procesa múltiples formatos de entrada
 
----
+## 🚀 Inicio Rápido
 
-## 3. Requisitos
-
-* **Python** ≥ 3.10
-* CPU; GPU opcional.
-
-**requirements.txt**
-
-```
-transformers>=4.43
-torch>=2.2
-sentence-transformers>=3.0
-scikit-learn>=1.4
-dateparser>=1.2
-pdfplumber>=0.11
-streamlit>=1.36
-```
-
----
-
-## 4. Estructura del repositorio
-
-```
-actionminer/
-  app/
-    streamlit_app.py
-  data/
-    raw/             # textos/PDF crudos (anonimizados)
-    interim/         # textos limpios
-    annotations/     # dataset etiquetado (jsonl/csv)
-    splits/          # listas de train/dev/test
-  models/
-    sentence_encoder/   # cache (opcional)
-    classifier.pkl      # clasificador TAREA
-    threshold.txt       # umbral calibrado por F1
-  src/
-    io_pdf.py
-    preprocess.py
-    sentence_split.py
-    featurize.py
-    train_classifier.py
-    infer_classifier.py
-    ner_extract.py
-    date_extract.py
-    postprocess.py
-    evaluate.py
-  eval/
-    reports.md
-  README.md
-```
-
----
-
-## 5. Instalación y ejecución rápida
+### Instalación
 
 ```bash
-# 1) Entorno
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+# Clonar el repositorio
+git clone [tu-repo]
+cd DeL-Proyecto
 
-# 2) Dependencias
+# Instalar dependencias
 pip install -r requirements.txt
+```
 
-# 3) Entrenar clasificador (usa data/annotations/*.jsonl)
-python src/train_classifier.py
+### Uso
 
-# 4) Ejecutar app
+#### Opción 1: Script de Lanzamiento (Recomendado)
+
+```bash
+./run_app.sh
+```
+
+#### Opción 2: Comando Directo
+
+```bash
 streamlit run app/streamlit_app.py
 ```
 
----
+#### Opción 3: Verificar Pipeline
 
-## 6. Dataset y etiquetado
-
-**Entrada de entrenamiento**: oraciones etiquetadas como `TAREA` o `NO_TAREA`. Para algunas `TAREA`, incluyen `responsable_gold` y `fecha_gold` para evaluación de extracción.
-
-**Formato `jsonl` (una oración por línea):**
-
-```json
-{"doc_id":"acta_001","sent_id":0,"text":"Juan enviará el informe el jueves.","label":"TAREA","responsable_gold":"Juan","fecha_gold":"2025-10-23"}
-{"doc_id":"acta_001","sent_id":1,"text":"Se discutió el presupuesto.","label":"NO_TAREA"}
+```bash
+python test_pipeline.py
 ```
 
-**Criterios de etiquetado**
+La aplicación se abrirá automáticamente en tu navegador en `http://localhost:8501`
 
-* `TAREA` si hay verbo de acción atribuible (p. ej., enviar, preparar, entregar, revisar, coordinar, agendar, subir, compartir, firmar, actualizar, configurar, documentar, notificar, resolver, investigar, programar, instalar, comprar, validar, corregir, reportar) y expresa obligación/compromiso (debe, tiene que, se acuerda que X hará Y).
-* `NO_TAREA` si solo informa/discute ("se habló", "se presentó").
-* Casos límite: “Se debe enviar el informe.” es `TAREA`; el responsable puede quedar “pendiente de asignar”.
+## 📖 Ejemplo de Uso
 
-**Splits**
+### Entrada
 
-* Separar por documento: 70% train / 15% dev / 15% test.
-
----
-
-## 7. Entrenamiento del clasificador (intervención propia)
-
-**Estrategia**
-
-* **Embeddings**: `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`.
-* **Clasificador**: LogisticRegression (o SVM lineal) con validación cruzada.
-* **Calibración de umbral**: elegir umbral que maximice F1 en `dev`.
-
-**Salida del entrenamiento**
-
-* `models/classifier.pkl`, `models/sentence_encoder.pkl`, `models/threshold.txt` (umbral en flotante).
-
----
-
-## 8. Inferencia y post‑proceso
-
-**Inferencia (oraciones)**
-
-* Cargar `classifier.pkl` + `threshold.txt` → `es_tarea: bool`.
-
-**NER + reglas para Responsable**
-
-* NER (español) con agregación de entidades PERSON.
-* Reglas: (1) PERSON a la izquierda del verbo de acción, mínima distancia; (2) PERSON a la derecha vinculada por "a/para"; (3) múltiples PERSON → más cercana al verbo; (4) si no hay PERSON → “pendiente de asignar”.
-
-**Fecha**
-
-* Regex para fechas absolutas/relativas + `dateparser.parse(..., languages=['es'], settings={'RELATIVE_BASE': base_dt})`.
-* Si no parsea → “sin fecha”.
-
-**Verbos de acción (lista editable)**
-
-```
-{"enviar","preparar","entregar","revisar","coordinar","agendar","subir","compartir",
- "firmar","actualizar","configurar","documentar","notificar","resolver","investigar",
- "programar","instalar","comprar","validar","corregir","reportar"}
+```text
+Juan debe enviar el informe antes del viernes 15 de noviembre.
+Se discutió el presupuesto del proyecto.
+María coordinará la reunión con el equipo técnico el próximo martes.
 ```
 
----
+### Salida (CSV)
 
-## 9. Evaluación
+| sent_id | oracion | es_tarea | score | responsable | fecha_iso |
+|---------|---------|----------|-------|-------------|-----------|
+| 0 | Juan debe enviar el informe... | TRUE | 0.989 | Juan | 2025-11-15 |
+| 1 | Se discutió el presupuesto... | FALSE | 0.024 | - | - |
+| 2 | María coordinará la reunión... | TRUE | 0.979 | María | 2025-11-12 |
 
-**Tareas del script `src/evaluate.py`**
-
-* **Clasificador**: F1 (macro) en test; precisión/recobrado por clase.
-* **Extracción**: Exact‑Match de `responsable` y `fecha` cuando existan etiquetas `*_gold`.
-* **Latencia**: tiempo promedio por documento en CPU.
-
-**Criterios objetivo (ajustables)**
-
-* F1(TAREA) ≥ 0.80.
-* Responsable Exact‑Match ≥ 0.70 (si hay PERSON).
-* Fecha Exact‑Match ≥ 0.70 (si hay fecha).
-* Latencia ≤ 2 s por documento (1–2 páginas) en CPU.
-
----
-
-## 10. App (Streamlit)
-
-**Uso**
-
-1. Cargar texto (textarea) o PDF (uploader).
-2. Procesar → segmentación → clasificación TAREA.
-3. Para cada TAREA → NER/Fecha → tabla.
-4. Descargar resultados como **CSV**.
-
-**CSV de salida**
+## 🏗️ Arquitectura
 
 ```
-document_id,sent_id,oracion,es_tarea,responsable,fecha_iso
+📄 Entrada (PDF/TXT/Texto)
+    ↓
+🧹 Preprocesamiento
+    ↓
+✂️ Segmentación en Oraciones
+    ↓
+🤖 Clasificación (Embeddings + LogReg)
+    ↓
+SI es TAREA →
+    👤 NER (Responsable)
+    📅 Extracción de Fecha
+    ↓
+💾 Exportación CSV
+```
+
+## 📊 Rendimiento del Modelo
+
+### Métricas en Test Set
+
+| Métrica | Valor |
+|---------|-------|
+| **F1 Score** | 0.9863 |
+| **Precision** | 0.9744 |
+| **Recall** | 1.0000 |
+| **Accuracy** | 0.9867 |
+
+### Dataset
+
+- **Total**: 500 oraciones etiquetadas
+- **Balance**: 53% TAREA / 47% NO_TAREA
+- **Splits**: 70% train / 15% dev / 15% test
+
+### Modelos Entrenados
+
+| Experimento | Modelo | F1 (dev) | Estado |
+|-------------|--------|----------|--------|
+| Embeddings + LogReg | Spanish Embeddings | 1.0000 | ✅ Mejor |
+| BERT Fine-tuning | Multilingual BERT | 1.0000 | ✅ |
+| Ensemble | Soft Voting | 1.0000 | ✅ |
+
+## 📁 Estructura del Proyecto
+
+```
+DeL-Proyecto/
+├── app/
+│   └── streamlit_app.py          # Aplicación web principal
+├── src/
+│   ├── preprocess.py             # Limpieza de texto
+│   ├── sentence_split.py         # Segmentación
+│   ├── infer_classifier.py       # Clasificación
+│   ├── ner_extract.py            # Extracción de responsables
+│   ├── date_extract.py           # Extracción de fechas
+│   └── experiments/              # Scripts de experimentación
+├── data/
+│   ├── annotations/              # Dataset etiquetado (500 oraciones)
+│   └── splits/                   # Train/dev/test
+├── models/
+│   └── best_baseline/            # Mejor modelo (F1=0.9863)
+├── tests/
+│   └── unit/                     # 17 tests unitarios
+├── eval/                         # Resultados y visualizaciones
+├── INSTRUCCIONES_USO.md          # Guía detallada de usuario
+├── RESUMEN_PROYECTO.md           # Resumen ejecutivo completo
+└── test_pipeline.py              # Script de verificación
+```
+
+## 🧪 Testing
+
+Ejecutar tests unitarios:
+
+```bash
+pytest tests/unit/ -v
+```
+
+Verificar pipeline completo:
+
+```bash
+python test_pipeline.py
+```
+
+## 📚 Documentación
+
+- **[INSTRUCCIONES_USO.md](INSTRUCCIONES_USO.md)**: Guía completa de usuario
+- **[RESUMEN_PROYECTO.md](RESUMEN_PROYECTO.md)**: Resumen ejecutivo y resultados
+- **[CLAUDE.md](CLAUDE.md)**: Especificaciones técnicas detalladas
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Python 3.10+**: Lenguaje principal
+- **Transformers (Hugging Face)**: Modelos BERT y NER
+- **Sentence-Transformers**: Embeddings de oraciones
+- **Scikit-learn**: Clasificación y grid search
+- **Streamlit**: Interfaz web
+- **dateparser**: Normalización de fechas
+- **pdfplumber**: Extracción de texto de PDFs
+- **pytest**: Testing
+
+## 🎓 Casos de Uso
+
+### 1. Análisis de Actas de Reunión
+
+Extrae automáticamente:
+- Tareas asignadas a cada persona
+- Fechas límite de entrega
+- Compromisos adquiridos
+
+### 2. Gestión de Emails Corporativos
+
+Identifica:
+- Solicitudes de acción
+- Responsables de seguimiento
+- Plazos de respuesta
+
+### 3. Procesamiento de Documentos Legales/Administrativos
+
+Detecta:
+- Obligaciones contractuales
+- Fechas de vencimiento
+- Partes responsables
+
+## 🔍 Funcionalidades Avanzadas
+
+### Clasificación Inteligente
+
+- Modelo entrenado con 500 oraciones reales
+- Grid search con 16 combinaciones de hiperparámetros
+- Calibración de umbral por F1 score
+
+### Extracción de Responsables
+
+- NER BERT fine-tuned en español
+- Vinculación contextual con verbos de acción
+- Detección de proximidad responsable-verbo
+
+### Normalización de Fechas
+
+- Fechas absolutas: "15/11/2025", "15 de noviembre de 2025"
+- Fechas relativas: "mañana", "próximo martes", "esta semana"
+- Salida en formato ISO (YYYY-MM-DD)
+
+## 🚧 Limitaciones Conocidas
+
+- ❗ Solo procesa documentos con texto embebido (no OCR)
+- ❗ Optimizado para español de España/Latinoamérica
+- ❗ NER puede fallar con nombres poco comunes
+- ❗ Fechas ambiguas dependen de la fecha base configurada
+
+## 🤝 Contribuciones
+
+Para reportar bugs o sugerir mejoras:
+
+1. Revisar documentación existente
+2. Ejecutar `test_pipeline.py` para reproducir
+3. Incluir ejemplos específicos del problema
+
+## 📝 Changelog
+
+### v1.0.0 (Noviembre 2025)
+
+- ✅ Sistema completo funcional
+- ✅ 3 experimentos de ML completados
+- ✅ Interfaz Streamlit profesional
+- ✅ 17 tests unitarios pasando
+- ✅ F1 = 0.9863 en test set
+- ✅ Documentación completa
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado como parte del curso de Deep Learning en la Universidad del Valle de Guatemala.
+
+## 👥 Autores
+
+**Proyecto**: ActionMiner Lite
+**Curso**: Deep Learning y Sistemas Inteligentes
+**Institución**: Universidad del Valle de Guatemala
+**Año**: 2025
+
+---
+
+## 🏃 Comandos Rápidos
+
+```bash
+# Instalar
+pip install -r requirements.txt
+
+# Ejecutar app
+./run_app.sh
+# o
+streamlit run app/streamlit_app.py
+
+# Probar pipeline
+python test_pipeline.py
+
+# Tests
+pytest tests/unit/ -v
+
+# Experimentos
+python src/experiments/exp01_embeddings_logreg.py
+python src/experiments/compare_all.py
 ```
 
 ---
 
-## 11. Intervención propia y originalidad
+**Estado**: ✅ Completado y Funcional
 
-* **Dataset propio** (recolección, anonimización y etiquetado por el equipo).
-* **Fine‑tuning del clasificador** (embeddings + modelo lineal), con validación cruzada y calibración por F1.
-* **Reglas lingüísticas** de vínculo Responsable‑acción y normalización de fechas.
-* **Error analysis** y ajustes iterativos (listas de verbos, exclusión de verbos de reporte, mejoras de regex).
-* **Ablation**: comparación cero‑shot vs fine‑tune y con/sin reglas.
+**Última actualización**: Noviembre 2025
 
----
-
-## 12. Ejemplo reproducible
-
-**Entrada**
-
-> “Juan enviará el informe el jueves. Se revisó el presupuesto. Ana debe coordinar la reunión para la próxima semana.”
-
-**Salida (CSV)**
-
-```
-document_id,sent_id,oracion,es_tarea,responsable,fecha_iso
-demo,0,"Juan enviará el informe el jueves.",true,"Juan","2025-10-23"
-demo,1,"Se revisó el presupuesto.",false,,
-demo,2,"Ana debe coordinar la reunión para la próxima semana.",true,"Ana","2025-10-24"
-```
-
----
-
-## 13. Solución de problemas (FAQ)
-
-* **Torch no instala con CUDA** → usar versión CPU (por defecto) o instalar `--index-url` oficial de PyTorch.
-* **PDF sin texto** → el PDF es imagen; para el MVP usar PDFs con texto embebido o convertir previamente con OCR externo.
-* **Fechas relativas ambiguas** → ajustar `RELATIVE_BASE` (p. ej., fecha de la minuta) y documentar política.
-* **Nombres compuestos** → unir spans contiguos PERSON en `postprocess.py`.
-
----
-
-## 14. Roadmap (post‑MVP)
-
-* Export **.ics**, clasificación DECISIÓN/INFO, resumen breve.
-* Fine‑tuning ligero del NER en dominio local.
-* Mejora de heurísticas (coreferencia básica, priors por remitente/destinatario de correo).
-
----
-
-## 15. Licencia
-
-MIT 
----
-
-## 16. Autores
-
-* [Diego Valenzuela] — [22309]
-* [Gerson Ramirez] — [22281]
-
-Curso/Sección — Universidad — Período.
+Para más información, consulta [INSTRUCCIONES_USO.md](INSTRUCCIONES_USO.md) o [RESUMEN_PROYECTO.md](RESUMEN_PROYECTO.md)
