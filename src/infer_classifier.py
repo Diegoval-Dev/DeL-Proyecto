@@ -21,16 +21,25 @@ class SentenceTaskClassifier:
 
     def _load_if_available(self):
         clf_p = self.model_dir / "classifier.pkl"
-        enc_p = self.model_dir / "sentence_encoder.pkl"
+        # Buscar encoder.pkl primero, luego sentence_encoder.pkl (compatibilidad)
+        enc_p = self.model_dir / "encoder.pkl"
+        if not enc_p.exists():
+            enc_p = self.model_dir / "sentence_encoder.pkl"
+
         th_p  = self.model_dir / "threshold.txt"
+
         if clf_p.exists() and enc_p.exists():
             self._clf = joblib.load(clf_p)
             self._enc = joblib.load(enc_p)
+            print(f"✓ Modelo cargado desde: {self.model_dir}")
             if th_p.exists():
                 try:
                     self._th = float(th_p.read_text().strip())
+                    print(f"✓ Umbral de decisión: {self._th}")
                 except Exception:
                     self._th = 0.5
+        else:
+            print(f"⚠️ No se encontró modelo en {self.model_dir}, usando reglas heurísticas")
 
     def _rules_score(self, s: str) -> float:
         t = s.lower()
