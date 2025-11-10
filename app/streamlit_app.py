@@ -21,23 +21,49 @@ st.set_page_config(page_title="ActionMiner Lite", layout="wide")
 st.title("🎯 ActionMiner Lite — Detección de Tareas")
 st.caption("Detecta oraciones TAREA y extrae Responsable (PERSON) y Fecha usando NLP.")
 
-# Sidebar con info del modelo
+# Sidebar con configuración
 with st.sidebar:
+    st.header("⚙️ Configuración")
+
+    # Selector de modelo (SOLO LOS 3 FINALES)
+    model_option = st.selectbox(
+        "🎯 Modelo de Clasificación:",
+        [
+            "🥇 Baseline (Embeddings) - F1: 0.9863 [MEJOR]",
+            "🥈 BERT Español Mejorado - F1: 0.9783",
+            "🥉 BERT Multilingüe Mejorado - F1: 0.9783"
+        ],
+        index=0,
+        help="Los 3 mejores modelos del proyecto"
+    )
+
+    # Mapeo de opciones a rutas
+    model_map = {
+        "🥇 Baseline (Embeddings) - F1: 0.9863 [MEJOR]": ("best_baseline", "embeddings"),
+        "🥈 BERT Español Mejorado - F1: 0.9783": ("exp02_bert_improved/dccuchile_bert-base-spanish-wwm-cased/best_model", "bert"),
+        "🥉 BERT Multilingüe Mejorado - F1: 0.9783": ("exp02_bert_improved/bert-base-multilingual-cased/best_model", "bert")
+    }
+
+    selected_model_path, selected_model_type = model_map[model_option]
+
+    st.markdown("---")
     st.header("ℹ️ Información")
     st.markdown("""
-    **Modelos utilizados:**
-    - Clasificador: Embeddings + LogReg
-    - NER: BERT Spanish (responsables)
-    - Extractor de fechas: dateparser
+    **Pipeline del sistema:**
+    1. 📝 Extracción de texto (PDF/TXT)
+    2. 🔍 Clasificación (modelo seleccionado)
+    3. 👤 NER para responsables (BERT)
+    4. 📅 Extracción de fechas (dateparser)
 
-    **Métricas del modelo:**
-    - F1 Score: 0.9863
-    - Precisión: 0.9744
-    - Recall: 1.0000
+    **Los 3 modelos finales:**
+    - 🥇 **Baseline:** Mejor F1 (0.9863)
+    - 🥈 **BERT Español:** Balance P/R (0.9783)
+    - 🥉 **BERT Multilingüe:** Backup (0.9783)
 
-    **Dataset de entrenamiento:**
-    - 500 oraciones en español
-    - Balance: 53% TAREA / 47% NO_TAREA
+    **Dataset entrenamiento:**
+    - 408 oraciones originales
+    - 86 oraciones validación
+    - 500+ en total con test set
     """)
 
 st.markdown("### 📄 Entrada de Datos")
@@ -88,11 +114,11 @@ if st.button("🚀 Procesar Documento", type="primary"):
 
         st.info(f"📊 Se encontraron **{len(sents)}** oraciones en el documento.")
 
-        # Cargar clasificador
-        with st.spinner("Cargando modelo de clasificación..."):
+        # Cargar clasificador según selección
+        with st.spinner(f"Cargando modelo..."):
             base_dir = Path(__file__).parent.parent
             clf = SentenceTaskClassifier(
-                model_dir=base_dir / "models" / "best_baseline"
+                model_dir=base_dir / "models" / selected_model_path
             )
 
         # Procesar oraciones
@@ -189,10 +215,11 @@ if st.button("🚀 Procesar Documento", type="primary"):
 # Footer
 st.markdown("---")
 st.markdown(
-    """
+    f"""
     <div style='text-align: center; color: #666; font-size: 0.9em;'>
     ActionMiner Lite - Proyecto Deep Learning 2025 |
-    F1 Score: 0.9863 | Dataset: 500 oraciones
+    Modelo: {model_option.split(' - ')[0]} |
+    Dataset: 408-749 oraciones (original + augmented)
     </div>
     """,
     unsafe_allow_html=True
