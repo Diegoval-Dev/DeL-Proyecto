@@ -1,0 +1,60 @@
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 0, "text": "Juan tiene miedo de presentar el informe ante la junta.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 1, "text": "María tiene miedo de hablar en público.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 2, "text": "Carlos está preocupado por los cambios en la organización.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 3, "text": "Ana está preocupado por el presupuesto del próximo año.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 4, "text": "Pedro teme presentar los resultados.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 5, "text": "Laura teme implementar los cambios.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_descripciones_0", "sent_id": 6, "text": "Miguel es responsable del departamento de ventas.", "label": "NO_TAREA", "note": "Generated: descripciones"}
+{"doc_id": "tricky_neg_descripciones_0", "sent_id": 7, "text": "Carmen es responsable del área de recursos humanos.", "label": "NO_TAREA", "note": "Generated: descripciones"}
+{"doc_id": "tricky_neg_descripciones_0", "sent_id": 8, "text": "Francisco trabaja en el plataforma de e-commerce.", "label": "NO_TAREA", "note": "Generated: descripciones"}
+{"doc_id": "tricky_neg_descripciones_0", "sent_id": 9, "text": "Isabel trabaja en el proyecto de innovación.", "label": "NO_TAREA", "note": "Generated: descripciones"}
+{"doc_id": "tricky_neg_descripciones_1", "sent_id": 10, "text": "Roberto está a cargo de desarrollo de software.", "label": "NO_TAREA", "note": "Generated: descripciones"}
+{"doc_id": "tricky_neg_descripciones_1", "sent_id": 11, "text": "Elena está a cargo de análisis de datos.", "label": "NO_TAREA", "note": "Generated: descripciones"}
+{"doc_id": "tricky_neg_estados_conocimiento_1", "sent_id": 12, "text": "José conoce muy bien la estrategia de marketing.", "label": "NO_TAREA", "note": "Generated: estados_conocimiento"}
+{"doc_id": "tricky_neg_estados_conocimiento_1", "sent_id": 13, "text": "Lucía conoce muy bien las nuevas políticas.", "label": "NO_TAREA", "note": "Generated: estados_conocimiento"}
+{"doc_id": "tricky_neg_estados_conocimiento_1", "sent_id": 14, "text": "Antonio sabe gestionar equipos multidisciplinarios.", "label": "NO_TAREA", "note": "Generated: estados_conocimiento"}
+{"doc_id": "tricky_neg_estados_conocimiento_1", "sent_id": 15, "text": "Teresa sabe programar en Python y JavaScript.", "label": "NO_TAREA", "note": "Generated: estados_conocimiento"}
+{"doc_id": "tricky_neg_estados_conocimiento_1", "sent_id": 16, "text": "Juan entiende los cambios en la organización perfectamente.", "label": "NO_TAREA", "note": "Generated: estados_conocimiento"}
+{"doc_id": "tricky_neg_estados_conocimiento_1", "sent_id": 17, "text": "María entiende el presupuesto del próximo año perfectamente.", "label": "NO_TAREA", "note": "Generated: estados_conocimiento"}
+{"doc_id": "tricky_neg_capacidades_1", "sent_id": 18, "text": "Carlos puede comunicarse efectivamente rápidamente.", "label": "NO_TAREA", "note": "Generated: capacidades"}
+{"doc_id": "tricky_neg_capacidades_1", "sent_id": 19, "text": "Ana puede gestionar equipos multidisciplinarios rápidamente.", "label": "NO_TAREA", "note": "Generated: capacidades"}
+{"doc_id": "tricky_neg_capacidades_2", "sent_id": 20, "text": "Pedro es capaz de programar en Python y JavaScript.", "label": "NO_TAREA", "note": "Generated: capacidades"}
+{"doc_id": "tricky_neg_capacidades_2", "sent_id": 21, "text": "Laura es capaz de resolver problemas complejos.", "label": "NO_TAREA", "note": "Generated: capacidades"}
+{"doc_id": "tricky_neg_capacidades_2", "sent_id": 22, "text": "Miguel tiene la capacidad de entregar el proyecto.", "label": "NO_TAREA", "note": "Generated: capacidades"}
+{"doc_id": "tricky_neg_capacidades_2", "sent_id": 23, "text": "Carmen tiene la capacidad de coordinar con el equipo.", "label": "NO_TAREA", "note": "Generated: capacidades"}
+{"doc_id": "tricky_neg_deseos_objetivos_2", "sent_id": 24, "text": "El objetivo de Francisco es optimizar los procesos internos.", "label": "NO_TAREA", "note": "Generated: deseos_objetivos"}
+{"doc_id": "tricky_neg_deseos_objetivos_2", "sent_id": 25, "text": "El objetivo de Isabel es mejorar la eficiencia operacional.", "label": "NO_TAREA", "note": "Generated: deseos_objetivos"}
+{"doc_id": "tricky_neg_deseos_objetivos_2", "sent_id": 26, "text": "Roberto quiere convertirse en líder del proyecto.", "label": "NO_TAREA", "note": "Generated: deseos_objetivos"}
+{"doc_id": "tricky_neg_deseos_objetivos_2", "sent_id": 27, "text": "Elena quiere aprender más sobre inteligencia artificial.", "label": "NO_TAREA", "note": "Generated: deseos_objetivos"}
+{"doc_id": "tricky_neg_deseos_objetivos_2", "sent_id": 28, "text": "José desea crecer profesionalmente en la empresa.", "label": "NO_TAREA", "note": "Generated: deseos_objetivos"}
+{"doc_id": "tricky_neg_deseos_objetivos_2", "sent_id": 29, "text": "Lucía desea optimizar los procesos internos.", "label": "NO_TAREA", "note": "Generated: deseos_objetivos"}
+{"doc_id": "tricky_neg_caracteristicas_3", "sent_id": 30, "text": "Antonio debe ser el mejor programador del equipo.", "label": "NO_TAREA", "note": "Generated: caracteristicas"}
+{"doc_id": "tricky_neg_caracteristicas_3", "sent_id": 31, "text": "Teresa debe ser la persona más experimentada.", "label": "NO_TAREA", "note": "Generated: caracteristicas"}
+{"doc_id": "tricky_neg_caracteristicas_3", "sent_id": 32, "text": "Juan tiene que ser un excelente líder.", "label": "NO_TAREA", "note": "Generated: caracteristicas"}
+{"doc_id": "tricky_neg_caracteristicas_3", "sent_id": 33, "text": "María tiene que ser muy profesional.", "label": "NO_TAREA", "note": "Generated: caracteristicas"}
+{"doc_id": "tricky_neg_caracteristicas_3", "sent_id": 34, "text": "Carlos puede ser extremadamente competente.", "label": "NO_TAREA", "note": "Generated: caracteristicas"}
+{"doc_id": "tricky_neg_caracteristicas_3", "sent_id": 35, "text": "Ana puede ser el mejor programador del equipo.", "label": "NO_TAREA", "note": "Generated: caracteristicas"}
+{"doc_id": "tricky_neg_ubicacion_contexto_3", "sent_id": 36, "text": "Pedro vive en Madrid.", "label": "NO_TAREA", "note": "Generated: ubicacion_contexto"}
+{"doc_id": "tricky_neg_ubicacion_contexto_3", "sent_id": 37, "text": "Laura vive en Barcelona.", "label": "NO_TAREA", "note": "Generated: ubicacion_contexto"}
+{"doc_id": "tricky_neg_ubicacion_contexto_3", "sent_id": 38, "text": "Miguel está en la oficina central.", "label": "NO_TAREA", "note": "Generated: ubicacion_contexto"}
+{"doc_id": "tricky_neg_ubicacion_contexto_3", "sent_id": 39, "text": "Carmen está en el departamento de TI.", "label": "NO_TAREA", "note": "Generated: ubicacion_contexto"}
+{"doc_id": "tricky_neg_ubicacion_contexto_4", "sent_id": 40, "text": "Francisco se encuentra en Madrid.", "label": "NO_TAREA", "note": "Generated: ubicacion_contexto"}
+{"doc_id": "tricky_neg_ubicacion_contexto_4", "sent_id": 41, "text": "Isabel se encuentra en Barcelona.", "label": "NO_TAREA", "note": "Generated: ubicacion_contexto"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 42, "text": "El día 15 de octubre de 2025 se llevó a cabo una reunión del equipo de trabajo para planificar las actividades.", "label": "NO_TAREA", "note": "Pasado perfecto - evento ya ocurrido"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 43, "text": "Durante la sesión se revisaron los avances de los proyectos en curso y se asignaron nuevas tareas a los miembros del equipo.", "label": "NO_TAREA", "note": "Pasado - reporte de lo que pasó"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 44, "text": "Se presentaron los resultados del último trimestre y se discutieron las estrategias para el próximo período.", "label": "NO_TAREA", "note": "Pasado - reporte"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 45, "text": "Se analizaron las propuestas presentadas por los diferentes departamentos.", "label": "NO_TAREA", "note": "Pasado - análisis ya realizado"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 46, "text": "El comité evaluó las opciones y decidió postergar la decisión.", "label": "NO_TAREA", "note": "Pasado - decisión ya tomada"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 47, "text": "Se presentó el nuevo sistema de gestión durante la capacitación.", "label": "NO_TAREA", "note": "Pasado - presentación ya hecha"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 48, "text": "Los participantes compartieron sus experiencias sobre el proyecto.", "label": "NO_TAREA", "note": "Pasado - acción completada"}
+{"doc_id": "tricky_neg_pasado", "sent_id": 49, "text": "Se discutieron los pros y contras de implementar la nueva metodología.", "label": "NO_TAREA", "note": "Pasado - discusión ya realizada"}
+{"doc_id": "tricky_neg_reunion", "sent_id": 50, "text": "Se estableció que la próxima reunión de seguimiento se realizará el día 15 de noviembre.", "label": "NO_TAREA", "note": "Reunión futura pero sin responsable específico"}
+{"doc_id": "tricky_neg_reunion", "sent_id": 51, "text": "Finalmente se acordó continuar con el plan establecido anteriormente.", "label": "NO_TAREA", "note": "Acuerdo genérico sin acción específica"}
+{"doc_id": "tricky_neg_reunion", "sent_id": 52, "text": "La junta directiva se reunirá para evaluar el desempeño del equipo.", "label": "NO_TAREA", "note": "Reunión futura sin responsable individual"}
+{"doc_id": "tricky_neg_reunion", "sent_id": 53, "text": "El próximo taller se realizará el martes a las 10 am en la sala de conferencias.", "label": "NO_TAREA", "note": "Evento sin responsable específico"}
+{"doc_id": "tricky_neg_reunion", "sent_id": 54, "text": "La capacitación sobre el nuevo sistema se llevará a cabo el viernes.", "label": "NO_TAREA", "note": "Evento sin asignación individual"}
+{"doc_id": "tricky_neg_pasado_accion", "sent_id": 55, "text": "María envió el informe ayer por la tarde.", "label": "NO_TAREA", "note": "Acción completada en pasado"}
+{"doc_id": "tricky_neg_pasado_accion", "sent_id": 56, "text": "Carlos actualizó la base de datos el lunes pasado.", "label": "NO_TAREA", "note": "Acción completada"}
+{"doc_id": "tricky_neg_pasado_accion", "sent_id": 57, "text": "El equipo preparó la presentación la semana anterior.", "label": "NO_TAREA", "note": "Acción ya completada"}
+{"doc_id": "tricky_neg_pasado_accion", "sent_id": 58, "text": "Ana coordinó con el departamento de ventas exitosamente.", "label": "NO_TAREA", "note": "Coordinación ya realizada"}
+{"doc_id": "tricky_neg_pasado_accion", "sent_id": 59, "text": "Pedro entregó el documento antes de la fecha límite.", "label": "NO_TAREA", "note": "Entrega ya completada"}
