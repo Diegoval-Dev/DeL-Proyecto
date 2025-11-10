@@ -1,0 +1,749 @@
+{"text": "Nicolás tiene que crear los scripts de automatización de deployment.", "label": "TAREA"}
+{"text": "El proceso manual actual consume demasiado tiempo.", "label": "NO_TAREA"}
+{"text": "Yolanda preparará la documentación de los procesos DevOps.", "label": "TAREA"}
+{"text": "Se evaluaron diferentes herramientas de automatización.", "label": "NO_TAREA"}
+{"text": "Armando debe configurar los webhooks para las notificaciones.", "label": "TAREA"}
+{"text": "Armando tiene que configurar los webhooks para las notificaciones.", "label": "TAREA"}
+{"text": "Armando requiere configurar los webhooks para las notificaciones.", "label": "TAREA"}
+{"text": "Armando requiere configurar los webhooks para las notificaciones.", "label": "TAREA"}
+{"text": "Olivia coordinará el proyecto de transformación de la cadena de suministro.", "label": "TAREA"}
+{"text": "Se evaluaron múltiples proveedores para cada categoría de compra.", "label": "NO_TAREA"}
+{"text": "Por favor, negocia los contratos marco antes del 30 de noviembre.", "label": "TAREA"}
+{"text": "Por favor, negocia los contratos marco previo a del 30 de noviembre.", "label": "TAREA"}
+{"text": "Por favor, negocia los contratos marco previo a del 30 de noviembre.", "label": "TAREA"}
+{"text": "Por favor, negocia los contratos marco previo a del 30 de noviembre.", "label": "TAREA"}
+{"text": "Los costos logísticos representan una oportunidad de ahorro.", "label": "NO_TAREA"}
+{"text": "Pascual debe optimizar las rutas de distribución para reducir costos.", "label": "TAREA"}
+{"text": "Pascual tiene que optimizar las rutas de distribución para reducir costos.", "label": "TAREA"}
+{"text": "Pascual está obligado a optimizar las rutas de distribución para reducir costos.", "label": "TAREA"}
+{"text": "Pascual requiere optimizar las rutas de distribución para reducir costos.", "label": "TAREA"}
+{"text": "Cynthia coordinará las pruebas del plan de continuidad de negocio.", "label": "TAREA"}
+{"text": "El simulacro de emergencia fue exitoso.", "label": "NO_TAREA"}
+{"text": "Denis preparará los procedimientos de respuesta ante incidentes.", "label": "TAREA"}
+{"text": "Se revisaron los protocolos de seguridad física.", "label": "NO_TAREA"}
+{"text": "Flor debe actualizar los contactos de emergencia de todos los empleados.", "label": "TAREA"}
+{"text": "Flor requiere renovar los contactos de emergencia de todos los empleados.", "label": "TAREA"}
+{"text": "Flor tiene que refrescar los contactos de emergencia de todos los empleados.", "label": "TAREA"}
+{"text": "Flor necesita modernizar los contactos de emergencia de todos los empleados.", "label": "TAREA"}
+{"text": "Patricia coordinará la logística del evento anual de la compañía.", "label": "TAREA"}
+{"text": "Se comentaron las sugerencias recibidas de los empleados.", "label": "NO_TAREA"}
+{"text": "Alberto preparará el presupuesto preliminar para el próximo año fiscal.", "label": "TAREA"}
+{"text": "Los objetivos estratégicos fueron aprobados por la junta directiva.", "label": "NO_TAREA"}
+{"text": "Gabriela debe contactar a los proveedores para solicitar cotizaciones antes del viernes.", "label": "TAREA"}
+{"text": "Gabriela necesita contactar a los proveedores para solicitar cotizaciones anticipadamente del viernes.", "label": "TAREA"}
+{"text": "Gabriela tiene que contactar a los proveedores para solicitar cotizaciones previo a del viernes.", "label": "TAREA"}
+{"text": "Gabriela tiene que contactar a los proveedores para solicitar cotizaciones previo a del viernes.", "label": "TAREA"}
+{"text": "Se discutió la política de trabajo remoto e híbrido.", "label": "NO_TAREA"}
+{"text": "Doris tiene que elaborar las directrices de trabajo flexible.", "label": "TAREA"}
+{"text": "Los empleados valoran mucho la flexibilidad laboral.", "label": "NO_TAREA"}
+{"text": "Emilio debe configurar las herramientas de colaboración remota.", "label": "TAREA"}
+{"text": "Emilio está obligado a configurar las herramientas de colaboración remota.", "label": "TAREA"}
+{"text": "Emilio tiene que configurar las herramientas de colaboración remota.", "label": "TAREA"}
+{"text": "Emilio está obligado a configurar las herramientas de colaboración remota.", "label": "TAREA"}
+{"text": "Se evaluaron mejores prácticas de empresas tech líderes.", "label": "NO_TAREA"}
+{"text": "Se presentó el análisis de la competencia en el mercado local.", "label": "NO_TAREA"}
+{"text": "Diego coordinará las entrevistas con los candidatos seleccionados.", "label": "TAREA"}
+{"text": "Los datos demográficos fueron revisados por el equipo de investigación.", "label": "NO_TAREA"}
+{"text": "Valentina debe enviar las métricas de desempeño el 22 de noviembre.", "label": "TAREA"}
+{"text": "Valentina necesita mandar las métricas de desempeño el 22 de noviembre.", "label": "TAREA"}
+{"text": "Valentina está obligado a transmitir las métricas de desempeño el 22 de noviembre.", "label": "TAREA"}
+{"text": "Valentina tiene que mandar las métricas de desempeño el 22 de noviembre.", "label": "TAREA"}
+{"text": "Se compartieron las lecciones aprendidas del último sprint.", "label": "NO_TAREA"}
+{"text": "Wanda debe implementar el programa de reconocimiento a empleados destacados.", "label": "TAREA"}
+{"text": "Wanda requiere implementar el programa de reconocimiento a empleados destacados.", "label": "TAREA"}
+{"text": "Wanda necesita implementar el programa de reconocimiento a empleados destacados.", "label": "TAREA"}
+{"text": "Wanda tiene que implementar el programa de reconocimiento a empleados destacados.", "label": "TAREA"}
+{"text": "El engagement del equipo ha mejorado notablemente.", "label": "NO_TAREA"}
+{"text": "Ulises preparará las insignias y premios para el evento de fin de año.", "label": "TAREA"}
+{"text": "Se celebraron los logros del equipo en el último quarter.", "label": "NO_TAREA"}
+{"text": "Tamara debe coordinar la cena de fin de año con el equipo directivo.", "label": "TAREA"}
+{"text": "Tamara necesita organizar la cena de fin de año con el equipo directivo.", "label": "TAREA"}
+{"text": "Tamara requiere planificar la cena de fin de año con el equipo directivo.", "label": "TAREA"}
+{"text": "Tamara tiene que gestionar la cena de fin de año con el equipo directivo.", "label": "TAREA"}
+{"text": "Constantino coordinará el proyecto de automatización de procesos repetitivos.", "label": "TAREA"}
+{"text": "El análisis de ROI mostró ahorros significativos potenciales.", "label": "NO_TAREA"}
+{"text": "Edith preparará el business case para la inversión en RPA.", "label": "TAREA"}
+{"text": "Se demostraron casos de uso exitosos en otras empresas.", "label": "NO_TAREA"}
+{"text": "Gerardo debe evaluar las plataformas de automatización disponibles.", "label": "TAREA"}
+{"text": "Gerardo está obligado a evaluar las plataformas de automatización disponibles.", "label": "TAREA"}
+{"text": "Gerardo está obligado a evaluar las plataformas de automatización disponibles.", "label": "TAREA"}
+{"text": "Gerardo está obligado a evaluar las plataformas de automatización disponibles.", "label": "TAREA"}
+{"text": "Se recibió una solicitud de propuesta de un cliente enterprise.", "label": "NO_TAREA"}
+{"text": "Genaro coordinará la preparación de la respuesta al RFP.", "label": "TAREA"}
+{"text": "El deadline para enviar la propuesta es muy ajustado.", "label": "NO_TAREA"}
+{"text": "El deadline para mandar la propuesta es muy ajustado.", "label": "NO_TAREA"}
+{"text": "El deadline para transmitir la propuesta es muy ajustado.", "label": "NO_TAREA"}
+{"text": "Necesitas convocar al equipo técnico para la sesión de trabajo hoy.", "label": "TAREA"}
+{"text": "Helena debe revisar los requisitos técnicos detallados del RFP.", "label": "TAREA"}
+{"text": "Helena está obligado a examinar los requisitos técnicos detallados del RFP.", "label": "TAREA"}
+{"text": "Helena tiene que chequear los requisitos técnicos detallados del RFP.", "label": "TAREA"}
+{"text": "Helena tiene que inspeccionar los requisitos técnicos detallados del RFP.", "label": "TAREA"}
+{"text": "Jimena coordinará con el equipo de UX las mejoras en la interfaz.", "label": "TAREA"}
+{"text": "Los usuarios reportaron una experiencia muy satisfactoria.", "label": "NO_TAREA"}
+{"text": "Ramiro preparará el plan de comunicación para el lanzamiento.", "label": "TAREA"}
+{"text": "Se evaluaron diferentes opciones de monetización.", "label": "NO_TAREA"}
+{"text": "Verónica debe actualizar el sitio web corporativo antes del 28 de noviembre.", "label": "TAREA"}
+{"text": "Verónica debe poner al día el sitio web corporativo anticipadamente del 28 de noviembre.", "label": "TAREA"}
+{"text": "Verónica está obligado a modernizar el sitio web corporativo antes del 28 de noviembre.", "label": "TAREA"}
+{"text": "Verónica tiene que actualizar el sitio web corporativo anticipadamente del 28 de noviembre.", "label": "TAREA"}
+{"text": "Se habló sobre la sostenibilidad y responsabilidad social corporativa.", "label": "NO_TAREA"}
+{"text": "Oliver coordinará las iniciativas de reducción de huella de carbono.", "label": "TAREA"}
+{"text": "La empresa obtuvo certificación ambiental ISO 14001.", "label": "NO_TAREA"}
+{"text": "Leticia tiene que preparar el reporte de sostenibilidad anual.", "label": "TAREA"}
+{"text": "Leticia tiene que desarrollar el reporte de sostenibilidad anual.", "label": "TAREA"}
+{"text": "Leticia tiene que elaborar el reporte de sostenibilidad anual.", "label": "TAREA"}
+{"text": "Leticia tiene que confeccionar el reporte de sostenibilidad anual.", "label": "TAREA"}
+{"text": "Se evaluaron proveedores con prácticas sustentables.", "label": "NO_TAREA"}
+{"text": "Se completó la integración con el CRM.", "label": "NO_TAREA"}
+{"text": "Soledad coordinará la capacitación del equipo de ventas en la nueva herramienta.", "label": "TAREA"}
+{"text": "Los reportes automáticos están funcionando correctamente.", "label": "NO_TAREA"}
+{"text": "Necesitas configurar los workflows de automatización antes del jueves.", "label": "TAREA"}
+{"text": "Necesitas configurar los workflows de automatización con anterioridad a del jueves.", "label": "TAREA"}
+{"text": "Necesitas configurar los workflows de automatización con anterioridad a del jueves.", "label": "TAREA"}
+{"text": "Necesitas configurar los workflows de automatización previo a del jueves.", "label": "TAREA"}
+{"text": "Claudio debe importar los contactos históricos al nuevo sistema.", "label": "TAREA"}
+{"text": "Claudio tiene que importar los contactos históricos al nuevo sistema.", "label": "TAREA"}
+{"text": "Claudio necesita importar los contactos históricos al nuevo sistema.", "label": "TAREA"}
+{"text": "Claudio requiere importar los contactos históricos al nuevo sistema.", "label": "TAREA"}
+{"text": "Francisco se encuentra en Madrid.", "label": "NO_TAREA"}
+{"text": "Isabel se encuentra en Barcelona.", "label": "NO_TAREA"}
+{"text": "Tatiana coordinará las capacitaciones de unconscious bias.", "label": "TAREA"}
+{"text": "El liderazgo está comprometido con la agenda de inclusión.", "label": "NO_TAREA"}
+{"text": "Ulises preparará las políticas de lenguaje inclusivo.", "label": "TAREA"}
+{"text": "Se celebraron fechas importantes de diversidad cultural.", "label": "NO_TAREA"}
+{"text": "Vanesa debe crear grupos de afinidad para empleados.", "label": "TAREA"}
+{"text": "Vanesa necesita crear grupos de afinidad para empleados.", "label": "TAREA"}
+{"text": "Vanesa necesita crear grupos de afinidad para empleados.", "label": "TAREA"}
+{"text": "Vanesa requiere crear grupos de afinidad para empleados.", "label": "TAREA"}
+{"text": "María debe enviar el informe final de ventas antes del viernes 15 de noviembre.", "label": "TAREA"}
+{"text": "María debe transmitir el informe final de ventas con anterioridad a del viernes 15 de noviembre.", "label": "TAREA"}
+{"text": "María debe enviar el memoria final de ventas anticipadamente del viernes 15 de noviembre.", "label": "TAREA"}
+{"text": "María tiene que enviar el reporte final de ventas antes del viernes 15 de noviembre.", "label": "TAREA"}
+{"text": "Se discutió la estrategia de marketing para el próximo trimestre.", "label": "NO_TAREA"}
+{"text": "Juan coordinará la reunión con el equipo técnico el próximo martes.", "label": "TAREA"}
+{"text": "Juan coordinará la junta con el equipo técnico el próximo martes.", "label": "TAREA"}
+{"text": "Juan coordinará la encuentro con el equipo técnico el próximo martes.", "label": "TAREA"}
+{"text": "Juan coordinará la junta con el equipo técnico el próximo martes.", "label": "TAREA"}
+{"text": "Los resultados del último trimestre fueron presentados por el director.", "label": "NO_TAREA"}
+{"text": "Ana tiene que revisar los contratos de los nuevos proveedores esta semana.", "label": "TAREA"}
+{"text": "Ana tiene que chequear los contratos de los nuevos proveedores esta semana.", "label": "TAREA"}
+{"text": "Ana tiene que inspeccionar los contratos de los nuevos proveedores esta semana.", "label": "TAREA"}
+{"text": "Ana tiene que verificar los contratos de los nuevos proveedores esta semana.", "label": "TAREA"}
+{"text": "Matías debe crear los tutoriales en video para los usuarios.", "label": "TAREA"}
+{"text": "Matías tiene que crear los tutoriales en video para los usuarios.", "label": "TAREA"}
+{"text": "Matías requiere crear los tutoriales en video para los usuarios.", "label": "TAREA"}
+{"text": "Matías tiene que crear los tutoriales en video para los usuarios.", "label": "TAREA"}
+{"text": "Los usuarios han solicitado más contenido educativo.", "label": "NO_TAREA"}
+{"text": "Elvira preparará la base de conocimiento para el self-service.", "label": "TAREA"}
+{"text": "Se implementó un chatbot básico para consultas frecuentes.", "label": "NO_TAREA"}
+{"text": "Rogelio debe configurar las respuestas automáticas del sistema.", "label": "TAREA"}
+{"text": "Rogelio requiere configurar las respuestas automáticas del sistema.", "label": "TAREA"}
+{"text": "Rogelio tiene que configurar las respuestas automáticas del sistema.", "label": "TAREA"}
+{"text": "Rogelio tiene que configurar las respuestas automáticas del sistema.", "label": "TAREA"}
+{"text": "Wendy tiene que revisar las prácticas de reclutamiento inclusivo.", "label": "TAREA"}
+{"text": "Wendy tiene que examinar las prácticas de reclutamiento inclusivo.", "label": "TAREA"}
+{"text": "Wendy tiene que inspeccionar las prácticas de reclutamiento inclusivo.", "label": "TAREA"}
+{"text": "Wendy tiene que examinar las prácticas de reclutamiento inclusivo.", "label": "TAREA"}
+{"text": "Se eliminaron sesgos en las descripciones de puesto.", "label": "NO_TAREA"}
+{"text": "Por favor, amplía los canales de sourcing para aumentar diversidad.", "label": "TAREA"}
+{"text": "Se están atrayendo perfiles más diversos.", "label": "NO_TAREA"}
+{"text": "Xavier debe implementar entrevistas estructuradas para reducir sesgos.", "label": "TAREA"}
+{"text": "Xavier necesita implementar entrevistas estructuradas para reducir sesgos.", "label": "TAREA"}
+{"text": "Xavier requiere implementar entrevistas estructuradas para reducir sesgos.", "label": "TAREA"}
+{"text": "Xavier requiere implementar entrevistas estructuradas para reducir sesgos.", "label": "TAREA"}
+{"text": "Wilfredo coordinará el lanzamiento del nuevo producto estrella.", "label": "TAREA"}
+{"text": "Las pruebas beta recibieron comentarios muy favorables.", "label": "NO_TAREA"}
+{"text": "Ximena preparará el plan de go-to-market para el lanzamiento.", "label": "TAREA"}
+{"text": "Se definió la propuesta de valor diferenciada del producto.", "label": "NO_TAREA"}
+{"text": "Yago debe coordinar con producción el abastecimiento inicial.", "label": "TAREA"}
+{"text": "Yago tiene que organizar con producción el abastecimiento inicial.", "label": "TAREA"}
+{"text": "Yago tiene que gestionar con producción el abastecimiento inicial.", "label": "TAREA"}
+{"text": "Yago necesita planificar con producción el abastecimiento inicial.", "label": "TAREA"}
+{"text": "Se discutió la estrategia de contenidos para el blog corporativo.", "label": "NO_TAREA"}
+{"text": "Ramón coordinará con los expertos internos la creación de artículos.", "label": "TAREA"}
+{"text": "El tráfico orgánico ha crecido constantemente.", "label": "NO_TAREA"}
+{"text": "Blanca tiene que optimizar el SEO de las páginas principales.", "label": "TAREA"}
+{"text": "Se analizaron las keywords más relevantes para el negocio.", "label": "NO_TAREA"}
+{"text": "Se discutió el programa de fidelización de clientes.", "label": "NO_TAREA"}
+{"text": "Belén coordinará el diseño de la estructura de recompensas.", "label": "TAREA"}
+{"text": "Los clientes han solicitado más beneficios tangibles.", "label": "NO_TAREA"}
+{"text": "Ciro tiene que implementar el sistema de puntos y niveles.", "label": "TAREA"}
+{"text": "Se analizaron programas exitosos de otras empresas.", "label": "NO_TAREA"}
+{"text": "Miguel es responsable del departamento de ventas.", "label": "NO_TAREA"}
+{"text": "Carmen es responsable del área de recursos humanos.", "label": "NO_TAREA"}
+{"text": "Francisco trabaja en el plataforma de e-commerce.", "label": "NO_TAREA"}
+{"text": "Isabel trabaja en el proyecto de innovación.", "label": "NO_TAREA"}
+{"text": "Se presentó el programa de bienestar para empleados.", "label": "NO_TAREA"}
+{"text": "Úrsula coordinará las actividades recreativas y deportivas mensuales.", "label": "TAREA"}
+{"text": "La encuesta de clima laboral tuvo resultados muy positivos.", "label": "NO_TAREA"}
+{"text": "Hugo tiene que organizar el día de la familia para el próximo mes.", "label": "TAREA"}
+{"text": "Se analizaron las iniciativas de balance vida-trabajo.", "label": "NO_TAREA"}
+{"text": "Se presentó el prototipo inicial a los stakeholders.", "label": "NO_TAREA"}
+{"text": "Cristina tiene que recopilar los requisitos faltantes del cliente.", "label": "TAREA"}
+{"text": "El análisis de usabilidad mostró áreas de mejora importantes.", "label": "NO_TAREA"}
+{"text": "Maximiliano debe diseñar los wireframes de las nuevas pantallas.", "label": "TAREA"}
+{"text": "Maximiliano tiene que diseñar los wireframes de las nuevas pantallas.", "label": "TAREA"}
+{"text": "Maximiliano está obligado a diseñar los wireframes de las nuevas pantallas.", "label": "TAREA"}
+{"text": "Maximiliano está obligado a diseñar los wireframes de las nuevas pantallas.", "label": "TAREA"}
+{"text": "Se discutieron las tecnologías a utilizar en el frontend.", "label": "NO_TAREA"}
+{"text": "Antonio debe ser el mejor programador del equipo.", "label": "NO_TAREA"}
+{"text": "Antonio necesita ser el mejor programador del equipo.", "label": "NO_TAREA"}
+{"text": "Antonio tiene que ser el mejor programador del equipo.", "label": "NO_TAREA"}
+{"text": "Teresa debe ser la persona más experimentada.", "label": "NO_TAREA"}
+{"text": "Teresa necesita ser la persona más experimentada.", "label": "NO_TAREA"}
+{"text": "Teresa está obligado a ser la persona más experimentada.", "label": "NO_TAREA"}
+{"text": "Juan tiene que ser un excelente líder.", "label": "NO_TAREA"}
+{"text": "María tiene que ser muy profesional.", "label": "NO_TAREA"}
+{"text": "Carlos puede ser extremadamente competente.", "label": "NO_TAREA"}
+{"text": "Carlos es capaz de ser extremadamente competente.", "label": "NO_TAREA"}
+{"text": "Carlos está en condiciones de ser extremadamente competente.", "label": "NO_TAREA"}
+{"text": "Ana puede ser el mejor programador del equipo.", "label": "NO_TAREA"}
+{"text": "Ana está en condiciones de ser el mejor programador del equipo.", "label": "NO_TAREA"}
+{"text": "Ana tiene la posibilidad de ser el mejor programador del equipo.", "label": "NO_TAREA"}
+{"text": "Se habló sobre la optimización de los procesos operativos.", "label": "NO_TAREA"}
+{"text": "Fabricio tiene que mapear el flujo actual de trabajo de cada departamento.", "label": "TAREA"}
+{"text": "Se identificaron varios cuellos de botella en la operación.", "label": "NO_TAREA"}
+{"text": "Consuelo debe proponer mejoras para reducir los tiempos de ciclo.", "label": "TAREA"}
+{"text": "Consuelo necesita proponer mejoras para reducir los tiempos de ciclo.", "label": "TAREA"}
+{"text": "Consuelo tiene que proponer mejoras para reducir los tiempos de ciclo.", "label": "TAREA"}
+{"text": "Consuelo tiene que proponer mejoras para reducir los tiempos de ciclo.", "label": "TAREA"}
+{"text": "Se evaluaron metodologías de mejora continua como Lean y Six Sigma.", "label": "NO_TAREA"}
+{"text": "Bruno debe implementar el programa de reciclaje en todas las oficinas.", "label": "TAREA"}
+{"text": "Bruno está obligado a implementar el programa de reciclaje en todas las oficinas.", "label": "TAREA"}
+{"text": "Bruno necesita implementar el programa de reciclaje en todas las oficinas.", "label": "TAREA"}
+{"text": "Bruno está obligado a implementar el programa de reciclaje en todas las oficinas.", "label": "TAREA"}
+{"text": "Los empleados mostraron gran compromiso con las iniciativas verdes.", "label": "NO_TAREA"}
+{"text": "Alma preparará la campaña interna de concientización ambiental.", "label": "TAREA"}
+{"text": "Se midió el impacto de las acciones implementadas.", "label": "NO_TAREA"}
+{"text": "Simón debe coordinar con ONGs para proyectos de impacto social.", "label": "TAREA"}
+{"text": "Simón está obligado a organizar con ONGs para proyectos de impacto social.", "label": "TAREA"}
+{"text": "Simón necesita dirigir con ONGs para proyectos de impacto social.", "label": "TAREA"}
+{"text": "Simón requiere gestionar con ONGs para proyectos de impacto social.", "label": "TAREA"}
+{"text": "Juan corregirá los errores críticos del sistema urgentemente", "label": "TAREA"}
+{"text": "Corregir los errores críticos del sistema urgentemente", "label": "TAREA"}
+{"text": "Se acordó que se corrijan los errores críticos del sistema urgentemente", "label": "TAREA"}
+{"text": "Cuando termine la revisión, Ana debe corregir los errores críticos del sistema que se detectaron la semana pasada", "label": "TAREA"}
+{"text": "Cuando termine la revisión, Ana requiere corregir los errores críticos del sistema que se detectaron la semana pasada", "label": "TAREA"}
+{"text": "Cuando termine la revisión, Ana tiene que corregir los errores críticos del sistema que se detectaron la semana pasada", "label": "TAREA"}
+{"text": "Cuando termine la revisión, Ana está obligado a corregir los errores críticos del sistema que se detectaron la semana pasada", "label": "TAREA"}
+{"text": "Quedó pendiente corregir los errores críticos del sistema", "label": "TAREA"}
+{"text": "Roberto corrigió los errores críticos del sistema la semana pasada", "label": "NO_TAREA"}
+{"text": "Pedro vive en Madrid.", "label": "NO_TAREA"}
+{"text": "Laura vive en Barcelona.", "label": "NO_TAREA"}
+{"text": "Miguel está en la oficina central.", "label": "NO_TAREA"}
+{"text": "Carmen está en el departamento de TI.", "label": "NO_TAREA"}
+{"text": "Víctor debe actualizar la documentación de APIs para los desarrolladores.", "label": "TAREA"}
+{"text": "Víctor tiene que modernizar la documentación de APIs para los desarrolladores.", "label": "TAREA"}
+{"text": "Víctor tiene que poner al día la documentación de APIs para los desarrolladores.", "label": "TAREA"}
+{"text": "Víctor necesita renovar la documentación de APIs para los desarrolladores.", "label": "TAREA"}
+{"text": "El equipo completó todas las historias de usuario del sprint.", "label": "NO_TAREA"}
+{"text": "Paola preparará los casos de prueba para la nueva funcionalidad.", "label": "TAREA"}
+{"text": "Se realizó una demostración exitosa al product owner.", "label": "NO_TAREA"}
+{"text": "Héctor debe configurar el pipeline de CI/CD antes del lunes.", "label": "TAREA"}
+{"text": "Héctor está obligado a configurar el pipeline de CI/CD previo a del lunes.", "label": "TAREA"}
+{"text": "Héctor necesita configurar el pipeline de CI/CD previo a del lunes.", "label": "TAREA"}
+{"text": "Héctor está obligado a configurar el pipeline de CI/CD con anterioridad a del lunes.", "label": "TAREA"}
+{"text": "Sebastián tiene que revisar el código antes de subirlo a producción.", "label": "TAREA"}
+{"text": "Sebastián tiene que examinar el código con anterioridad a de subirlo a producción.", "label": "TAREA"}
+{"text": "Sebastián tiene que inspeccionar el código anticipadamente de subirlo a producción.", "label": "TAREA"}
+{"text": "Sebastián tiene que chequear el código anticipadamente de subirlo a producción.", "label": "TAREA"}
+{"text": "El deploy se realizó sin inconvenientes durante la madrugada.", "label": "NO_TAREA"}
+{"text": "Daniela preparará el plan de testing para la nueva funcionalidad.", "label": "TAREA"}
+{"text": "Se detectaron varios bugs menores durante las pruebas.", "label": "NO_TAREA"}
+{"text": "Francisco debe documentar los cambios en el wiki antes del jueves.", "label": "TAREA"}
+{"text": "Francisco está obligado a detallar los cambios en el wiki antes del jueves.", "label": "TAREA"}
+{"text": "Francisco requiere documentar los cambios en el wiki anticipadamente del jueves.", "label": "TAREA"}
+{"text": "Francisco tiene que detallar los cambios en el wiki antes del jueves.", "label": "TAREA"}
+{"text": "Se presentó el plan de mantenimiento preventivo de activos.", "label": "NO_TAREA"}
+{"text": "Magdalena tiene que implementar el sistema TPM en todas las líneas.", "label": "TAREA"}
+{"text": "Los tiempos de paro no programado se redujeron este mes.", "label": "NO_TAREA"}
+{"text": "Norberto debe crear el historial de mantenimiento digitalizado.", "label": "TAREA"}
+{"text": "Norberto necesita crear el historial de mantenimiento digitalizado.", "label": "TAREA"}
+{"text": "Norberto tiene que crear el historial de mantenimiento digitalizado.", "label": "TAREA"}
+{"text": "Norberto está obligado a crear el historial de mantenimiento digitalizado.", "label": "TAREA"}
+{"text": "Se establecieron indicadores de disponibilidad de equipos.", "label": "NO_TAREA"}
+{"text": "Se completó el análisis de performance de la aplicación.", "label": "NO_TAREA"}
+{"text": "Irene coordinará la implementación de caché distribuido.", "label": "TAREA"}
+{"text": "Los tiempos de respuesta mejoraron significativamente.", "label": "NO_TAREA"}
+{"text": "Necesitas revisar el plan de escalamiento antes de la reunión.", "label": "TAREA"}
+{"text": "Necesitas verificar el plan de escalamiento con anterioridad a de la reunión.", "label": "TAREA"}
+{"text": "Necesitas examinar el plan de escalamiento anticipadamente de la reunión.", "label": "TAREA"}
+{"text": "Necesitas inspeccionar el plan de escalamiento anticipadamente de la reunión.", "label": "TAREA"}
+{"text": "Alfredo debe configurar el balanceador de carga antes del viernes.", "label": "TAREA"}
+{"text": "Alfredo está obligado a configurar el balanceador de carga con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Alfredo necesita configurar el balanceador de carga anticipadamente del viernes.", "label": "TAREA"}
+{"text": "Alfredo requiere configurar el balanceador de carga con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Se presentaron los resultados de la investigación de mercado.", "label": "NO_TAREA"}
+{"text": "Ismael tiene que analizar los insights para la estrategia de producto.", "label": "TAREA"}
+{"text": "Los consumidores mostraron preferencias claras en las pruebas.", "label": "NO_TAREA"}
+{"text": "Julia debe preparar las recomendaciones para el comité de producto.", "label": "TAREA"}
+{"text": "Julia necesita confeccionar las recomendaciones para el comité de producto.", "label": "TAREA"}
+{"text": "Julia está obligado a crear las recomendaciones para el comité de producto.", "label": "TAREA"}
+{"text": "Julia está obligado a confeccionar las recomendaciones para el comité de producto.", "label": "TAREA"}
+{"text": "Se validaron hipótesis importantes sobre el mercado objetivo.", "label": "NO_TAREA"}
+{"text": "Andrés debe actualizar la documentación técnica del sistema.", "label": "TAREA"}
+{"text": "Andrés está obligado a poner al día la documentación técnica del sistema.", "label": "TAREA"}
+{"text": "Andrés necesita modernizar la documentación técnica del sistema.", "label": "TAREA"}
+{"text": "Andrés requiere refrescar la documentación técnica del sistema.", "label": "TAREA"}
+{"text": "Hemos completado la migración de datos exitosamente.", "label": "NO_TAREA"}
+{"text": "Necesitas validar las configuraciones de seguridad antes del lunes.", "label": "TAREA"}
+{"text": "Necesitas ratificar las configuraciones de seguridad anticipadamente del lunes.", "label": "TAREA"}
+{"text": "Necesitas ratificar las configuraciones de seguridad anticipadamente del lunes.", "label": "TAREA"}
+{"text": "Necesitas corroborar las configuraciones de seguridad anticipadamente del lunes.", "label": "TAREA"}
+{"text": "El servidor fue actualizado durante el fin de semana.", "label": "NO_TAREA"}
+{"text": "Carolina preparará el manual de usuario para la nueva aplicación.", "label": "TAREA"}
+{"text": "Necesito que revises el documento adjunto y me envíes tus comentarios.", "label": "TAREA"}
+{"text": "Adjunto encontrarás el reporte que solicitaste la semana pasada.", "label": "NO_TAREA"}
+{"text": "Por favor, confirma tu asistencia a la reunión del jueves 14.", "label": "TAREA"}
+{"text": "Por favor, confirma tu asistencia a la sesión del jueves 14.", "label": "TAREA"}
+{"text": "Por favor, confirma tu asistencia a la encuentro del jueves 14.", "label": "TAREA"}
+{"text": "Por favor, confirma tu asistencia a la junta del jueves 14.", "label": "TAREA"}
+{"text": "Hemos recibido tu solicitud de vacaciones.", "label": "NO_TAREA"}
+{"text": "Debes completar el formulario de evaluación antes del 18 de noviembre.", "label": "TAREA"}
+{"text": "Debes terminar el formulario de evaluación anticipadamente del 18 de noviembre.", "label": "TAREA"}
+{"text": "Debes finalizar el formulario de evaluación con anterioridad a del 18 de noviembre.", "label": "TAREA"}
+{"text": "Debes finalizar el formulario de evaluación con anterioridad a del 18 de noviembre.", "label": "TAREA"}
+{"text": "Miriam coordinará las reuniones de seguimiento con clientes clave.", "label": "TAREA"}
+{"text": "La satisfacción del cliente alcanzó un nivel récord.", "label": "NO_TAREA"}
+{"text": "Benjamín preparará las propuestas personalizadas para cada cuenta.", "label": "TAREA"}
+{"text": "Se recibieron varias solicitudes de expansión de servicios.", "label": "NO_TAREA"}
+{"text": "Eugenia debe enviar las encuestas de satisfacción a todos los clientes activos.", "label": "TAREA"}
+{"text": "Eugenia tiene que mandar las encuestas de satisfacción a todos los clientes activos.", "label": "TAREA"}
+{"text": "Eugenia tiene que transmitir las encuestas de satisfacción a todos los clientes activos.", "label": "TAREA"}
+{"text": "Eugenia necesita remitir las encuestas de satisfacción a todos los clientes activos.", "label": "TAREA"}
+{"text": "Se habló sobre la integración con sistemas externos.", "label": "NO_TAREA"}
+{"text": "Gonzalo coordinará las pruebas de integración con el equipo del proveedor.", "label": "TAREA"}
+{"text": "La arquitectura propuesta fue validada por el equipo técnico.", "label": "NO_TAREA"}
+{"text": "Teresa debe documentar los endpoints de la API antes del martes.", "label": "TAREA"}
+{"text": "Teresa requiere documentar los endpoints de la API previo a del martes.", "label": "TAREA"}
+{"text": "Teresa tiene que documentar los endpoints de la API previo a del martes.", "label": "TAREA"}
+{"text": "Teresa necesita describir los endpoints de la API antes del martes.", "label": "TAREA"}
+{"text": "Se revisaron los SLAs acordados con los proveedores.", "label": "NO_TAREA"}
+{"text": "Marta coordinará la capacitación sobre las nuevas herramientas.", "label": "TAREA"}
+{"text": "El equipo mostró gran interés en aprender nuevas tecnologías.", "label": "NO_TAREA"}
+{"text": "Raúl preparará el material didáctico para los workshops.", "label": "TAREA"}
+{"text": "Se compartieron recursos y tutoriales con todo el equipo.", "label": "NO_TAREA"}
+{"text": "Gloria debe organizar las sesiones de pair programming semanales.", "label": "TAREA"}
+{"text": "Gloria está obligado a organizar las sesiones de pair programming semanales.", "label": "TAREA"}
+{"text": "Gloria está obligado a organizar las sesiones de pair programming semanales.", "label": "TAREA"}
+{"text": "Gloria requiere organizar las sesiones de pair programming semanales.", "label": "TAREA"}
+{"text": "Óscar tiene que validar los datos antes de la importación masiva.", "label": "TAREA"}
+{"text": "Óscar tiene que ratificar los datos previo a de la importación masiva.", "label": "TAREA"}
+{"text": "Óscar tiene que confirmar los datos anticipadamente de la importación masiva.", "label": "TAREA"}
+{"text": "Óscar tiene que corroborar los datos previo a de la importación masiva.", "label": "TAREA"}
+{"text": "El proceso de limpieza de datos fue completado exitosamente.", "label": "NO_TAREA"}
+{"text": "Por favor, genera el reporte de inconsistencias antes del jueves.", "label": "TAREA"}
+{"text": "Por favor, genera el reporte de inconsistencias con anterioridad a del jueves.", "label": "TAREA"}
+{"text": "Por favor, genera el reporte de inconsistencias previo a del jueves.", "label": "TAREA"}
+{"text": "Por favor, genera el reporte de inconsistencias con anterioridad a del jueves.", "label": "TAREA"}
+{"text": "Se identificaron patrones anómalos en el comportamiento de usuarios.", "label": "NO_TAREA"}
+{"text": "Mónica debe implementar las reglas de validación en el formulario.", "label": "TAREA"}
+{"text": "Mónica tiene que implementar las reglas de validación en el formulario.", "label": "TAREA"}
+{"text": "Mónica requiere implementar las reglas de validación en el formulario.", "label": "TAREA"}
+{"text": "Mónica está obligado a implementar las reglas de validación en el formulario.", "label": "TAREA"}
+{"text": "Se completó el proceso de reclutamiento para las posiciones abiertas.", "label": "NO_TAREA"}
+{"text": "Lidia coordinará el onboarding de los nuevos ingresos del mes.", "label": "TAREA"}
+{"text": "Los candidatos seleccionados tienen perfiles excelentes.", "label": "NO_TAREA"}
+{"text": "Necesitas preparar los kits de bienvenida antes del miércoles.", "label": "TAREA"}
+{"text": "Necesitas desarrollar los kits de bienvenida previo a del miércoles.", "label": "TAREA"}
+{"text": "Necesitas crear los kits de bienvenida anticipadamente del miércoles.", "label": "TAREA"}
+{"text": "Necesitas confeccionar los kits de bienvenida previo a del miércoles.", "label": "TAREA"}
+{"text": "Quintín debe configurar los accesos y equipos de los nuevos empleados.", "label": "TAREA"}
+{"text": "Quintín está obligado a configurar los accesos y equipos de los nuevos empleados.", "label": "TAREA"}
+{"text": "Quintín tiene que configurar los accesos y equipos de los nuevos empleados.", "label": "TAREA"}
+{"text": "Quintín está obligado a configurar los accesos y equipos de los nuevos empleados.", "label": "TAREA"}
+{"text": "Rafael tiene que revisar las especificaciones técnicas del proyecto.", "label": "TAREA"}
+{"text": "Rafael tiene que chequear las especificaciones técnicas del proyecto.", "label": "TAREA"}
+{"text": "Rafael tiene que inspeccionar las especificaciones técnicas del proyecto.", "label": "TAREA"}
+{"text": "Rafael tiene que chequear las especificaciones técnicas del proyecto.", "label": "TAREA"}
+{"text": "El cliente aprobó la propuesta presentada la semana anterior.", "label": "NO_TAREA"}
+{"text": "Por favor, actualiza el roadmap del producto antes de la reunión del martes.", "label": "TAREA"}
+{"text": "Por favor, actualiza el roadmap del producto anticipadamente de la encuentro del martes.", "label": "TAREA"}
+{"text": "Por favor, actualiza el roadmap del producto anticipadamente de la encuentro del martes.", "label": "TAREA"}
+{"text": "Por favor, actualiza el roadmap del producto previo a de la sesión del martes.", "label": "TAREA"}
+{"text": "Se recibieron comentarios constructivos del equipo de QA.", "label": "NO_TAREA"}
+{"text": "Lorena debe enviar el status report semanal hoy por la tarde.", "label": "TAREA"}
+{"text": "Lorena tiene que transmitir el status report semanal hoy por la tarde.", "label": "TAREA"}
+{"text": "Lorena necesita transmitir el status report semanal hoy por la tarde.", "label": "TAREA"}
+{"text": "Lorena requiere despachar el status report semanal hoy por la tarde.", "label": "TAREA"}
+{"text": "Nadia tiene que analizar los datos cualitativos de las entrevistas.", "label": "TAREA"}
+{"text": "Se completaron todas las sesiones programadas exitosamente.", "label": "NO_TAREA"}
+{"text": "Por favor, transcribe las grabaciones antes del lunes.", "label": "TAREA"}
+{"text": "Por favor, transcribe las grabaciones previo a del lunes.", "label": "TAREA"}
+{"text": "Por favor, transcribe las grabaciones anticipadamente del lunes.", "label": "TAREA"}
+{"text": "Por favor, transcribe las grabaciones previo a del lunes.", "label": "TAREA"}
+{"text": "Los participantes compartieron feedback valioso.", "label": "NO_TAREA"}
+{"text": "Omar debe identificar patrones y temas recurrentes en las respuestas.", "label": "TAREA"}
+{"text": "Omar está obligado a identificar patrones y temas recurrentes en las respuestas.", "label": "TAREA"}
+{"text": "Omar requiere identificar patrones y temas recurrentes en las respuestas.", "label": "TAREA"}
+{"text": "Omar requiere identificar patrones y temas recurrentes en las respuestas.", "label": "TAREA"}
+{"text": "Herminio coordinará los círculos de calidad en la planta.", "label": "TAREA"}
+{"text": "Se implementaron varias sugerencias de los operarios.", "label": "NO_TAREA"}
+{"text": "Inés preparará el sistema de reconocimiento de ideas de mejora.", "label": "TAREA"}
+{"text": "La productividad mejoró significativamente este trimestre.", "label": "NO_TAREA"}
+{"text": "Jonás debe medir el impacto de cada mejora implementada.", "label": "TAREA"}
+{"text": "Jonás está obligado a medir el impacto de cada mejora implementada.", "label": "TAREA"}
+{"text": "Jonás necesita medir el impacto de cada mejora implementada.", "label": "TAREA"}
+{"text": "Jonás tiene que medir el impacto de cada mejora implementada.", "label": "TAREA"}
+{"text": "Se presentaron las métricas de calidad del código.", "label": "NO_TAREA"}
+{"text": "Rubén coordinará la refactorización del módulo de pagos.", "label": "TAREA"}
+{"text": "El análisis estático encontró varios code smells.", "label": "NO_TAREA"}
+{"text": "Pilar debe implementar los patrones de diseño acordados.", "label": "TAREA"}
+{"text": "Pilar tiene que implementar los patrones de diseño acordados.", "label": "TAREA"}
+{"text": "Pilar está obligado a implementar los patrones de diseño acordados.", "label": "TAREA"}
+{"text": "Pilar tiene que implementar los patrones de diseño acordados.", "label": "TAREA"}
+{"text": "Se discutieron las mejores prácticas de desarrollo.", "label": "NO_TAREA"}
+{"text": "El objetivo de Francisco es optimizar los procesos internos.", "label": "NO_TAREA"}
+{"text": "El objetivo de Isabel es mejorar la eficiencia operacional.", "label": "NO_TAREA"}
+{"text": "Roberto quiere convertirse en líder del proyecto.", "label": "NO_TAREA"}
+{"text": "Elena quiere aprender más sobre inteligencia artificial.", "label": "NO_TAREA"}
+{"text": "José desea crecer profesionalmente en la empresa.", "label": "NO_TAREA"}
+{"text": "Lucía desea optimizar los procesos internos.", "label": "NO_TAREA"}
+{"text": "Kevin coordinará las pruebas de concepto con usuarios reales.", "label": "TAREA"}
+{"text": "El prototipo funcional está listo para testing.", "label": "NO_TAREA"}
+{"text": "Lizbeth preparará el protocolo de pruebas y cuestionarios.", "label": "TAREA"}
+{"text": "Se reclutaron participantes representativos del target.", "label": "NO_TAREA"}
+{"text": "Manuel debe coordinar la logística de las sesiones de testing.", "label": "TAREA"}
+{"text": "Manuel necesita organizar la logística de las sesiones de testing.", "label": "TAREA"}
+{"text": "Manuel necesita planificar la logística de las sesiones de testing.", "label": "TAREA"}
+{"text": "Manuel requiere dirigir la logística de las sesiones de testing.", "label": "TAREA"}
+{"text": "Sergio tiene que revisar el código de los pull requests pendientes.", "label": "TAREA"}
+{"text": "Sergio tiene que chequear el código de los pull requests pendientes.", "label": "TAREA"}
+{"text": "Sergio tiene que verificar el código de los pull requests pendientes.", "label": "TAREA"}
+{"text": "Sergio tiene que inspeccionar el código de los pull requests pendientes.", "label": "TAREA"}
+{"text": "El coverage de tests alcanzó el 85%.", "label": "NO_TAREA"}
+{"text": "Por favor, actualiza las dependencias del proyecto antes del lunes.", "label": "TAREA"}
+{"text": "Por favor, actualiza las dependencias del proyecto anticipadamente del lunes.", "label": "TAREA"}
+{"text": "Por favor, actualiza las dependencias del proyecto con anterioridad a del lunes.", "label": "TAREA"}
+{"text": "Por favor, actualiza las dependencias del proyecto con anterioridad a del lunes.", "label": "TAREA"}
+{"text": "Se detectaron varias vulnerabilidades de seguridad.", "label": "NO_TAREA"}
+{"text": "Olga debe aplicar los parches de seguridad recomendados hoy.", "label": "TAREA"}
+{"text": "Olga tiene que aplicar los parches de seguridad recomendados hoy.", "label": "TAREA"}
+{"text": "Olga requiere aplicar los parches de seguridad recomendados hoy.", "label": "TAREA"}
+{"text": "Olga requiere aplicar los parches de seguridad recomendados hoy.", "label": "TAREA"}
+{"text": "Se recibió feedback positivo sobre la última actualización.", "label": "NO_TAREA"}
+{"text": "Adriana coordinará la sesión de planning con todo el equipo.", "label": "TAREA"}
+{"text": "Las pruebas de integración pasaron sin errores.", "label": "NO_TAREA"}
+{"text": "Necesitas revisar y priorizar el backlog antes del miércoles.", "label": "TAREA"}
+{"text": "Necesitas inspeccionar y priorizar el backlog con anterioridad a del miércoles.", "label": "TAREA"}
+{"text": "Necesitas examinar y priorizar el backlog anticipadamente del miércoles.", "label": "TAREA"}
+{"text": "Necesitas chequear y priorizar el backlog con anterioridad a del miércoles.", "label": "TAREA"}
+{"text": "Germán debe enviar los reportes de bugs identificados esta semana.", "label": "TAREA"}
+{"text": "Germán está obligado a despachar los reportes de bugs identificados esta semana.", "label": "TAREA"}
+{"text": "Germán tiene que despachar los reportes de bugs identificados esta semana.", "label": "TAREA"}
+{"text": "Germán está obligado a transmitir los reportes de bugs identificados esta semana.", "label": "TAREA"}
+{"text": "Ana entregará los resultados del análisis cuando finalice el proyecto", "label": "TAREA"}
+{"text": "Presentar los resultados del análisis antes de que termine el proyecto", "label": "TAREA"}
+{"text": "Presentar los resultados del análisis con anterioridad a de que termine el proyecto", "label": "TAREA"}
+{"text": "Presentar los resultados del análisis con anterioridad a de que termine el proyecto", "label": "TAREA"}
+{"text": "Presentar los resultados del análisis con anterioridad a de que termine el proyecto", "label": "TAREA"}
+{"text": "Se acordó que se presenten los resultados del análisis al finalizar el proyecto", "label": "TAREA"}
+{"text": "Cuando Carlos termine de revisar el proyecto, Sofía deberá entregar los resultados del análisis al equipo directivo", "label": "TAREA"}
+{"text": "Cuando Carlos termine de chequear el proyecto, Sofía deberá proveer los resultados del análisis al equipo directivo", "label": "TAREA"}
+{"text": "Cuando Carlos termine de chequear el proyecto, Sofía deberá facilitar los resultados del análisis al equipo directivo", "label": "TAREA"}
+{"text": "Cuando Carlos termine de chequear el proyecto, Sofía deberá facilitar los resultados del análisis al equipo directivo", "label": "TAREA"}
+{"text": "Quedaba pendiente entregar los resultados del análisis de la reunión anterior", "label": "TAREA"}
+{"text": "Quedaba pendiente facilitar los resultados del análisis de la junta anterior", "label": "TAREA"}
+{"text": "Quedaba pendiente proveer los resultados del análisis de la encuentro anterior", "label": "TAREA"}
+{"text": "Quedaba pendiente suministrar los resultados del análisis de la encuentro anterior", "label": "TAREA"}
+{"text": "El equipo revisó los resultados del análisis realizado en la última reunión", "label": "NO_TAREA"}
+{"text": "El equipo revisó los resultados del análisis realizado en la última encuentro", "label": "NO_TAREA"}
+{"text": "El equipo revisó los resultados del análisis realizado en la última encuentro", "label": "NO_TAREA"}
+{"text": "Se presentó el plan de innovación abierta con startups.", "label": "NO_TAREA"}
+{"text": "Klaus coordinará el programa de corporate venturing.", "label": "TAREA"}
+{"text": "Se identificaron áreas de interés para colaboración.", "label": "NO_TAREA"}
+{"text": "Lina tiene que estructurar los criterios de selección de startups.", "label": "TAREA"}
+{"text": "Se exploraron modelos de aceleración e incubación.", "label": "NO_TAREA"}
+{"text": "Roberto está a cargo de desarrollo de software.", "label": "NO_TAREA"}
+{"text": "Elena está a cargo de análisis de datos.", "label": "NO_TAREA"}
+{"text": "Se implementó la nueva estructura organizacional.", "label": "NO_TAREA"}
+{"text": "Brenda coordinará la actualización del organigrama y job descriptions.", "label": "TAREA"}
+{"text": "Los roles y responsabilidades fueron clarificados.", "label": "NO_TAREA"}
+{"text": "Necesitas comunicar los cambios a todos los afectados antes del viernes.", "label": "TAREA"}
+{"text": "Necesitas comunicar los cambios a todos los afectados con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Necesitas comunicar los cambios a todos los afectados previo a del viernes.", "label": "TAREA"}
+{"text": "Necesitas comunicar los cambios a todos los afectados previo a del viernes.", "label": "TAREA"}
+{"text": "César debe actualizar los sistemas con la nueva estructura.", "label": "TAREA"}
+{"text": "César requiere modernizar los sistemas con la nueva estructura.", "label": "TAREA"}
+{"text": "César requiere poner al día los sistemas con la nueva estructura.", "label": "TAREA"}
+{"text": "César requiere refrescar los sistemas con la nueva estructura.", "label": "TAREA"}
+{"text": "Cecilia coordinará el lanzamiento de la campaña de marketing digital.", "label": "TAREA"}
+{"text": "El contenido para redes sociales fue aprobado.", "label": "NO_TAREA"}
+{"text": "Jaime preparará los anuncios para Google Ads y Facebook.", "label": "TAREA"}
+{"text": "Se revisaron las métricas de engagement del último mes.", "label": "NO_TAREA"}
+{"text": "Diana debe programar las publicaciones en redes sociales para toda la semana.", "label": "TAREA"}
+{"text": "Diana requiere programar las publicaciones en redes sociales para toda la semana.", "label": "TAREA"}
+{"text": "Diana necesita programar las publicaciones en redes sociales para toda la semana.", "label": "TAREA"}
+{"text": "Diana requiere programar las publicaciones en redes sociales para toda la semana.", "label": "TAREA"}
+{"text": "Zaira tiene que negociar con los distribuidores los términos comerciales.", "label": "TAREA"}
+{"text": "Los canales de distribución están listos para el lanzamiento.", "label": "NO_TAREA"}
+{"text": "Por favor, confirma los volúmenes de pedido inicial antes del jueves.", "label": "TAREA"}
+{"text": "Por favor, confirma los volúmenes de pedido inicial previo a del jueves.", "label": "TAREA"}
+{"text": "Por favor, confirma los volúmenes de pedido inicial anticipadamente del jueves.", "label": "TAREA"}
+{"text": "Por favor, confirma los volúmenes de pedido inicial con anterioridad a del jueves.", "label": "TAREA"}
+{"text": "Se acordaron condiciones favorables con los mayoristas.", "label": "NO_TAREA"}
+{"text": "Abdiel debe preparar el material promocional para punto de venta.", "label": "TAREA"}
+{"text": "Abdiel tiene que confeccionar el material promocional para punto de venta.", "label": "TAREA"}
+{"text": "Abdiel está obligado a desarrollar el material promocional para punto de venta.", "label": "TAREA"}
+{"text": "Abdiel está obligado a desarrollar el material promocional para punto de venta.", "label": "TAREA"}
+{"text": "Se presentó el análisis de competidores directos e indirectos.", "label": "NO_TAREA"}
+{"text": "Tristán tiene que actualizar el mapa de posicionamiento competitivo.", "label": "TAREA"}
+{"text": "Tristán tiene que modernizar el mapa de posicionamiento competitivo.", "label": "TAREA"}
+{"text": "Tristán tiene que refrescar el mapa de posicionamiento competitivo.", "label": "TAREA"}
+{"text": "Tristán tiene que refrescar el mapa de posicionamiento competitivo.", "label": "TAREA"}
+{"text": "Se identificaron ventajas competitivas clave de la empresa.", "label": "NO_TAREA"}
+{"text": "Virginia debe analizar las estrategias de pricing de la competencia.", "label": "TAREA"}
+{"text": "Virginia necesita analizar las estrategias de pricing de la competencia.", "label": "TAREA"}
+{"text": "Virginia necesita analizar las estrategias de pricing de la competencia.", "label": "TAREA"}
+{"text": "Virginia requiere analizar las estrategias de pricing de la competencia.", "label": "TAREA"}
+{"text": "Se evaluó la participación de mercado por segmento.", "label": "NO_TAREA"}
+{"text": "Se discutió la estrategia de backup y recuperación de desastres.", "label": "NO_TAREA"}
+{"text": "Carmen tiene que programar las copias de seguridad automáticas.", "label": "TAREA"}
+{"text": "Las pruebas de restore fueron exitosas.", "label": "NO_TAREA"}
+{"text": "Felipe debe documentar el procedimiento de recuperación de datos.", "label": "TAREA"}
+{"text": "Felipe requiere anotar el procedimiento de recuperación de datos.", "label": "TAREA"}
+{"text": "Felipe tiene que describir el procedimiento de recuperación de datos.", "label": "TAREA"}
+{"text": "Felipe necesita registrar el procedimiento de recuperación de datos.", "label": "TAREA"}
+{"text": "Se evaluaron diferentes soluciones de storage.", "label": "NO_TAREA"}
+{"text": "Martín tiene que contactar a los asistentes para confirmar su participación.", "label": "TAREA"}
+{"text": "Recibimos la aprobación del presupuesto solicitado.", "label": "NO_TAREA"}
+{"text": "Por favor, actualiza la lista de distribución antes del martes.", "label": "TAREA"}
+{"text": "Por favor, actualiza la lista de distribución anticipadamente del martes.", "label": "TAREA"}
+{"text": "Por favor, actualiza la lista de distribución anticipadamente del martes.", "label": "TAREA"}
+{"text": "Por favor, actualiza la lista de distribución previo a del martes.", "label": "TAREA"}
+{"text": "El evento del mes pasado tuvo una excelente asistencia.", "label": "NO_TAREA"}
+{"text": "Natalia debe revisar y aprobar los diseños finales mañana.", "label": "TAREA"}
+{"text": "Natalia necesita chequear y aprobar los diseños finales mañana.", "label": "TAREA"}
+{"text": "Natalia tiene que inspeccionar y aprobar los diseños finales mañana.", "label": "TAREA"}
+{"text": "Natalia tiene que inspeccionar y aprobar los diseños finales mañana.", "label": "TAREA"}
+{"text": "Rodrigo tiene que implementar las mejoras de seguridad en el sistema.", "label": "TAREA"}
+{"text": "El análisis de vulnerabilidades no mostró problemas críticos.", "label": "NO_TAREA"}
+{"text": "Amanda preparará el reporte de incidentes de seguridad mensual.", "label": "TAREA"}
+{"text": "Se realizaron pruebas de penetración en la infraestructura.", "label": "NO_TAREA"}
+{"text": "Ernesto debe actualizar las políticas de acceso antes del 25 de noviembre.", "label": "TAREA"}
+{"text": "Ernesto necesita actualizar las políticas de acceso anticipadamente del 25 de noviembre.", "label": "TAREA"}
+{"text": "Ernesto necesita refrescar las políticas de acceso antes del 25 de noviembre.", "label": "TAREA"}
+{"text": "Ernesto debe refrescar las políticas de acceso anticipadamente del 25 de noviembre.", "label": "TAREA"}
+{"text": "Se discutió la expansión de la línea de productos.", "label": "NO_TAREA"}
+{"text": "Paula coordinará el desarrollo de las nuevas variantes.", "label": "TAREA"}
+{"text": "El mercado demanda mayor diversidad de opciones.", "label": "NO_TAREA"}
+{"text": "Quique tiene que evaluar la viabilidad técnica de cada variante.", "label": "TAREA"}
+{"text": "Se priorizaron las extensiones según potencial de mercado.", "label": "NO_TAREA"}
+{"text": "Se habló sobre la gestión del cambio organizacional.", "label": "NO_TAREA"}
+{"text": "Walter tiene que desarrollar el plan de comunicación del cambio.", "label": "TAREA"}
+{"text": "Los empleados manifestaron preocupaciones sobre los cambios.", "label": "NO_TAREA"}
+{"text": "Xiomara debe identificar a los agentes de cambio en cada área.", "label": "TAREA"}
+{"text": "Xiomara está obligado a identificar a los agentes de cambio en cada área.", "label": "TAREA"}
+{"text": "Xiomara requiere identificar a los agentes de cambio en cada área.", "label": "TAREA"}
+{"text": "Xiomara tiene que identificar a los agentes de cambio en cada área.", "label": "TAREA"}
+{"text": "Se analizó el impacto del cambio en diferentes grupos.", "label": "NO_TAREA"}
+{"text": "Se implementó el nuevo sistema de gestión de proyectos.", "label": "NO_TAREA"}
+{"text": "Adrián coordinará la migración de todos los proyectos activos.", "label": "TAREA"}
+{"text": "La herramienta anterior será desactivada el próximo mes.", "label": "NO_TAREA"}
+{"text": "Necesitas transferir toda la documentación histórica antes del viernes.", "label": "TAREA"}
+{"text": "Necesitas transferir toda la documentación histórica con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Necesitas transferir toda la documentación histórica anticipadamente del viernes.", "label": "TAREA"}
+{"text": "Necesitas transferir toda la documentación histórica anticipadamente del viernes.", "label": "TAREA"}
+{"text": "Berenice debe capacitar a los project managers en el nuevo software.", "label": "TAREA"}
+{"text": "Berenice requiere capacitar a los project managers en el nuevo software.", "label": "TAREA"}
+{"text": "Berenice está obligado a capacitar a los project managers en el nuevo software.", "label": "TAREA"}
+{"text": "Berenice requiere capacitar a los project managers en el nuevo software.", "label": "TAREA"}
+{"text": "Se discutieron las opciones de financiamiento para el proyecto.", "label": "NO_TAREA"}
+{"text": "Leonardo coordinará la reunión con los inversores la próxima semana.", "label": "TAREA"}
+{"text": "Leonardo coordinará la encuentro con los inversores la próxima semana.", "label": "TAREA"}
+{"text": "Leonardo coordinará la encuentro con los inversores la próxima semana.", "label": "TAREA"}
+{"text": "Leonardo coordinará la encuentro con los inversores la próxima semana.", "label": "TAREA"}
+{"text": "Los informes trimestrales fueron distribuidos a todos los departamentos.", "label": "NO_TAREA"}
+{"text": "Valeria debe preparar el pitch deck para la presentación del jueves.", "label": "TAREA"}
+{"text": "Valeria requiere elaborar el pitch deck para la presentación del jueves.", "label": "TAREA"}
+{"text": "Valeria tiene que elaborar el pitch deck para la presentación del jueves.", "label": "TAREA"}
+{"text": "Valeria necesita crear el pitch deck para la presentación del jueves.", "label": "TAREA"}
+{"text": "Se evaluaron diferentes estrategias de crecimiento.", "label": "NO_TAREA"}
+{"text": "Susana coordinará las alianzas estratégicas con partners locales.", "label": "TAREA"}
+{"text": "Las primeras conversaciones fueron muy prometedoras.", "label": "NO_TAREA"}
+{"text": "Joel preparará las presentaciones corporativas en inglés y portugués.", "label": "TAREA"}
+{"text": "Se discutieron los aspectos culturales a considerar.", "label": "NO_TAREA"}
+{"text": "Miranda debe coordinar las traducciones del material de marketing.", "label": "TAREA"}
+{"text": "Miranda tiene que organizar las traducciones del material de marketing.", "label": "TAREA"}
+{"text": "Miranda tiene que dirigir las traducciones del material de marketing.", "label": "TAREA"}
+{"text": "Miranda tiene que dirigir las traducciones del material de marketing.", "label": "TAREA"}
+{"text": "El día 15 de octubre de 2025 se llevó a cabo una reunión del equipo de trabajo para planificar las actividades.", "label": "NO_TAREA"}
+{"text": "El día 15 de octubre de 2025 se llevó a cabo una sesión del equipo de trabajo para planificar las actividades.", "label": "NO_TAREA"}
+{"text": "El día 15 de octubre de 2025 se llevó a cabo una sesión del equipo de trabajo para planificar las actividades.", "label": "NO_TAREA"}
+{"text": "Durante la sesión se revisaron los avances de los proyectos en curso y se asignaron nuevas tareas a los miembros del equipo.", "label": "NO_TAREA"}
+{"text": "Se presentaron los resultados del último trimestre y se discutieron las estrategias para el próximo período.", "label": "NO_TAREA"}
+{"text": "Se analizaron las propuestas presentadas por los diferentes departamentos.", "label": "NO_TAREA"}
+{"text": "El comité evaluó las opciones y decidió postergar la decisión.", "label": "NO_TAREA"}
+{"text": "Se presentó el nuevo sistema de gestión durante la capacitación.", "label": "NO_TAREA"}
+{"text": "Los participantes compartieron sus experiencias sobre el proyecto.", "label": "NO_TAREA"}
+{"text": "Se discutieron los pros y contras de implementar la nueva metodología.", "label": "NO_TAREA"}
+{"text": "Horacio debe crear las landing pages para las nuevas campañas.", "label": "TAREA"}
+{"text": "Horacio necesita crear las landing pages para las nuevas campañas.", "label": "TAREA"}
+{"text": "Horacio está obligado a crear las landing pages para las nuevas campañas.", "label": "TAREA"}
+{"text": "Horacio necesita crear las landing pages para las nuevas campañas.", "label": "TAREA"}
+{"text": "Las pruebas A/B mostraron resultados significativos.", "label": "NO_TAREA"}
+{"text": "Angélica preparará los copy para los emails de nurturing.", "label": "TAREA"}
+{"text": "Se revisó la estrategia de email marketing.", "label": "NO_TAREA"}
+{"text": "Bernardo debe segmentar la base de datos de contactos antes del viernes.", "label": "TAREA"}
+{"text": "Bernardo necesita segmentar la base de datos de contactos con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Bernardo tiene que segmentar la base de datos de contactos con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Bernardo tiene que segmentar la base de datos de contactos con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Se discutió la implementación del nuevo sistema de gestión.", "label": "NO_TAREA"}
+{"text": "Ricardo enviará el cronograma actualizado del proyecto mañana.", "label": "TAREA"}
+{"text": "El comité evaluó las diferentes propuestas presentadas.", "label": "NO_TAREA"}
+{"text": "Fernanda tiene que organizar la reunión con los stakeholders la próxima semana.", "label": "TAREA"}
+{"text": "Fernanda tiene que organizar la junta con los stakeholders la próxima semana.", "label": "TAREA"}
+{"text": "Fernanda tiene que organizar la conferencia con los stakeholders la próxima semana.", "label": "TAREA"}
+{"text": "Fernanda tiene que organizar la sesión con los stakeholders la próxima semana.", "label": "TAREA"}
+{"text": "Se analizaron los riesgos potenciales del proyecto.", "label": "NO_TAREA"}
+{"text": "Mariana coordinará la migración a la nube el próximo fin de semana.", "label": "TAREA"}
+{"text": "La infraestructura actual ha estado funcionando sin problemas.", "label": "NO_TAREA"}
+{"text": "Ignacio preparará el plan de rollback por si hay inconvenientes.", "label": "TAREA"}
+{"text": "Se evaluaron los costos de las diferentes opciones cloud.", "label": "NO_TAREA"}
+{"text": "Claudia debe configurar los ambientes de staging antes del miércoles.", "label": "TAREA"}
+{"text": "Claudia está obligado a configurar los ambientes de staging previo a del miércoles.", "label": "TAREA"}
+{"text": "Claudia tiene que configurar los ambientes de staging anticipadamente del miércoles.", "label": "TAREA"}
+{"text": "Claudia requiere configurar los ambientes de staging con anterioridad a del miércoles.", "label": "TAREA"}
+{"text": "Pedro es capaz de programar en Python y JavaScript.", "label": "NO_TAREA"}
+{"text": "Laura es capaz de resolver problemas complejos.", "label": "NO_TAREA"}
+{"text": "Laura es capaz de arreglar problemas complejos.", "label": "NO_TAREA"}
+{"text": "Laura es capaz de remediar problemas complejos.", "label": "NO_TAREA"}
+{"text": "Miguel tiene la capacidad de entregar el proyecto.", "label": "NO_TAREA"}
+{"text": "Miguel tiene la capacidad de proporcionar el proyecto.", "label": "NO_TAREA"}
+{"text": "Miguel tiene la capacidad de proporcionar el proyecto.", "label": "NO_TAREA"}
+{"text": "Carmen tiene la capacidad de coordinar con el equipo.", "label": "NO_TAREA"}
+{"text": "Carmen tiene la capacidad de organizar con el equipo.", "label": "NO_TAREA"}
+{"text": "Carmen tiene la capacidad de organizar con el equipo.", "label": "NO_TAREA"}
+{"text": "Se discutió el plan de carrera y desarrollo profesional.", "label": "NO_TAREA"}
+{"text": "Zoila tiene que diseñar el programa de mentoring interno.", "label": "TAREA"}
+{"text": "Los empleados expresaron interés en capacitaciones técnicas.", "label": "NO_TAREA"}
+{"text": "Plácido debe identificar las necesidades de capacitación por área.", "label": "TAREA"}
+{"text": "Plácido requiere identificar las necesidades de capacitación por área.", "label": "TAREA"}
+{"text": "Plácido requiere identificar las necesidades de capacitación por área.", "label": "TAREA"}
+{"text": "Plácido necesita identificar las necesidades de capacitación por área.", "label": "TAREA"}
+{"text": "Se evaluaron plataformas de e-learning para el equipo.", "label": "NO_TAREA"}
+{"text": "Se presentó el informe de gobierno corporativo anual.", "label": "NO_TAREA"}
+{"text": "Se presentó el documento de gobierno corporativo anual.", "label": "NO_TAREA"}
+{"text": "Se presentó el escrito de gobierno corporativo anual.", "label": "NO_TAREA"}
+{"text": "Yesenia coordinará la actualización de políticas de compliance.", "label": "TAREA"}
+{"text": "La empresa cumple con todas las regulaciones vigentes.", "label": "NO_TAREA"}
+{"text": "Zacarías tiene que preparar la capacitación en ética empresarial.", "label": "TAREA"}
+{"text": "Zacarías tiene que confeccionar la capacitación en ética empresarial.", "label": "TAREA"}
+{"text": "Zacarías tiene que crear la capacitación en ética empresarial.", "label": "TAREA"}
+{"text": "Zacarías tiene que desarrollar la capacitación en ética empresarial.", "label": "TAREA"}
+{"text": "Se actualizó el código de conducta corporativo.", "label": "NO_TAREA"}
+{"text": "Se discutió el programa de mejora continua Kaizen.", "label": "NO_TAREA"}
+{"text": "Florentino tiene que capacitar a los equipos en metodología Kaizen.", "label": "TAREA"}
+{"text": "Se celebraron los logros de mejora del último periodo.", "label": "NO_TAREA"}
+{"text": "Genoveva debe establecer los objetivos de mejora para cada área.", "label": "TAREA"}
+{"text": "Genoveva tiene que establecer los objetivos de mejora para cada área.", "label": "TAREA"}
+{"text": "Genoveva requiere establecer los objetivos de mejora para cada área.", "label": "TAREA"}
+{"text": "Genoveva necesita establecer los objetivos de mejora para cada área.", "label": "TAREA"}
+{"text": "Los empleados participaron activamente en las iniciativas.", "label": "NO_TAREA"}
+{"text": "María envió el informe ayer por la tarde.", "label": "NO_TAREA"}
+{"text": "María envió el memoria ayer por la tarde.", "label": "NO_TAREA"}
+{"text": "María envió el escrito ayer por la tarde.", "label": "NO_TAREA"}
+{"text": "Carlos actualizó la base de datos el lunes pasado.", "label": "NO_TAREA"}
+{"text": "El equipo preparó la presentación la semana anterior.", "label": "NO_TAREA"}
+{"text": "Ana coordinó con el departamento de ventas exitosamente.", "label": "NO_TAREA"}
+{"text": "Pedro entregó el documento antes de la fecha límite.", "label": "NO_TAREA"}
+{"text": "Pedro entregó el documento con anterioridad a de la fecha límite.", "label": "NO_TAREA"}
+{"text": "Pedro entregó el documento anticipadamente de la fecha límite.", "label": "NO_TAREA"}
+{"text": "Roberto debe actualizar la base de datos de clientes antes del cierre del mes.", "label": "TAREA"}
+{"text": "Roberto está obligado a renovar la base de datos de clientes antes del cierre del mes.", "label": "TAREA"}
+{"text": "Roberto necesita poner al día la base de datos de clientes antes del cierre del mes.", "label": "TAREA"}
+{"text": "Roberto requiere refrescar la base de datos de clientes antes del cierre del mes.", "label": "TAREA"}
+{"text": "Se presentaron los avances del proyecto de infraestructura.", "label": "NO_TAREA"}
+{"text": "Elena coordinará con el departamento legal la revisión de los términos y condiciones.", "label": "TAREA"}
+{"text": "Los indicadores de rendimiento mostraron una mejora significativa.", "label": "NO_TAREA"}
+{"text": "Pedro enviará las invitaciones para el evento corporativo el próximo lunes.", "label": "TAREA"}
+{"text": "Se aprobó el presupuesto para el proyecto de expansión.", "label": "NO_TAREA"}
+{"text": "Uriel coordinará el kick-off meeting con todos los involucrados.", "label": "TAREA"}
+{"text": "El proyecto tiene luz verde para comenzar.", "label": "NO_TAREA"}
+{"text": "Necesitas definir los entregables y milestones antes del miércoles.", "label": "TAREA"}
+{"text": "Necesitas definir los entregables y milestones previo a del miércoles.", "label": "TAREA"}
+{"text": "Necesitas definir los entregables y milestones previo a del miércoles.", "label": "TAREA"}
+{"text": "Necesitas definir los entregables y milestones con anterioridad a del miércoles.", "label": "TAREA"}
+{"text": "Viviana debe asignar los recursos necesarios a cada workstream.", "label": "TAREA"}
+{"text": "Viviana está obligado a asignar los recursos necesarios a cada workstream.", "label": "TAREA"}
+{"text": "Viviana está obligado a asignar los recursos necesarios a cada workstream.", "label": "TAREA"}
+{"text": "Viviana necesita asignar los recursos necesarios a cada workstream.", "label": "TAREA"}
+{"text": "Abelardo debe revisar los controles internos de la organización.", "label": "TAREA"}
+{"text": "Abelardo necesita chequear los controles internos de la organización.", "label": "TAREA"}
+{"text": "Abelardo requiere inspeccionar los controles internos de la organización.", "label": "TAREA"}
+{"text": "Abelardo está obligado a examinar los controles internos de la organización.", "label": "TAREA"}
+{"text": "La auditoría interna no encontró desviaciones significativas.", "label": "NO_TAREA"}
+{"text": "Brígida preparará el calendario de auditorías para el próximo año.", "label": "TAREA"}
+{"text": "Se implementaron mejoras en los procesos de control.", "label": "NO_TAREA"}
+{"text": "Cayetano debe documentar las lecciones aprendidas de la auditoría.", "label": "TAREA"}
+{"text": "Cayetano está obligado a anotar las lecciones aprendidas de la auditoría.", "label": "TAREA"}
+{"text": "Cayetano tiene que registrar las lecciones aprendidas de la auditoría.", "label": "TAREA"}
+{"text": "Cayetano está obligado a describir las lecciones aprendidas de la auditoría.", "label": "TAREA"}
+{"text": "Agustín tiene que validar el cumplimiento regulatorio en cada país.", "label": "TAREA"}
+{"text": "Agustín tiene que corroborar el cumplimiento regulatorio en cada país.", "label": "TAREA"}
+{"text": "Agustín tiene que ratificar el cumplimiento regulatorio en cada país.", "label": "TAREA"}
+{"text": "Agustín tiene que verificar el cumplimiento regulatorio en cada país.", "label": "TAREA"}
+{"text": "El equipo legal aprobó los términos y condiciones internacionales.", "label": "NO_TAREA"}
+{"text": "Por favor, revisa los contratos de distribución antes del martes.", "label": "TAREA"}
+{"text": "Por favor, revisa los contratos de distribución previo a del martes.", "label": "TAREA"}
+{"text": "Por favor, revisa los contratos de distribución anticipadamente del martes.", "label": "TAREA"}
+{"text": "Por favor, revisa los contratos de distribución previo a del martes.", "label": "TAREA"}
+{"text": "Se recibió el visto bueno del comité directivo.", "label": "NO_TAREA"}
+{"text": "Nora debe registrar las marcas en las jurisdicciones objetivo.", "label": "TAREA"}
+{"text": "Nora necesita registrar las marcas en las jurisdicciones objetivo.", "label": "TAREA"}
+{"text": "Nora está obligado a registrar las marcas en las jurisdicciones objetivo.", "label": "TAREA"}
+{"text": "Nora tiene que registrar las marcas en las jurisdicciones objetivo.", "label": "TAREA"}
+{"text": "Rita debe preparar el análisis de costos de cada nueva referencia.", "label": "TAREA"}
+{"text": "Rita está obligado a elaborar el análisis de costos de cada nueva referencia.", "label": "TAREA"}
+{"text": "Rita requiere elaborar el análisis de costos de cada nueva referencia.", "label": "TAREA"}
+{"text": "Rita tiene que elaborar el análisis de costos de cada nueva referencia.", "label": "TAREA"}
+{"text": "Los márgenes proyectados son atractivos para el negocio.", "label": "NO_TAREA"}
+{"text": "Santiago preparará las proyecciones de ventas por SKU.", "label": "TAREA"}
+{"text": "Se evaluó la capacidad de producción actual.", "label": "NO_TAREA"}
+{"text": "Teodoro debe coordinar con manufactura el plan de producción.", "label": "TAREA"}
+{"text": "Teodoro requiere gestionar con manufactura el plan de producción.", "label": "TAREA"}
+{"text": "Teodoro requiere planificar con manufactura el plan de producción.", "label": "TAREA"}
+{"text": "Teodoro requiere gestionar con manufactura el plan de producción.", "label": "TAREA"}
+{"text": "Se presentaron los resultados del estudio de mercado.", "label": "NO_TAREA"}
+{"text": "Renata tiene que organizar el focus group con usuarios finales.", "label": "TAREA"}
+{"text": "El análisis de datos reveló patrones interesantes de comportamiento.", "label": "NO_TAREA"}
+{"text": "Pablo debe crear los dashboards de visualización para el equipo directivo.", "label": "TAREA"}
+{"text": "Pablo tiene que crear los dashboards de visualización para el equipo directivo.", "label": "TAREA"}
+{"text": "Pablo necesita crear los dashboards de visualización para el equipo directivo.", "label": "TAREA"}
+{"text": "Pablo requiere crear los dashboards de visualización para el equipo directivo.", "label": "TAREA"}
+{"text": "Se discutió la metodología de investigación a utilizar.", "label": "NO_TAREA"}
+{"text": "Néstor debe investigar tecnologías emergentes aplicables al negocio.", "label": "TAREA"}
+{"text": "Néstor necesita investigar tecnologías emergentes aplicables al negocio.", "label": "TAREA"}
+{"text": "Néstor está obligado a investigar tecnologías emergentes aplicables al negocio.", "label": "TAREA"}
+{"text": "Néstor está obligado a investigar tecnologías emergentes aplicables al negocio.", "label": "TAREA"}
+{"text": "El equipo asistió a conferencias tecnológicas relevantes.", "label": "NO_TAREA"}
+{"text": "Ofelia preparará el reporte de tendencias tecnológicas trimestrales.", "label": "TAREA"}
+{"text": "Se exploraron aplicaciones de IA y machine learning.", "label": "NO_TAREA"}
+{"text": "Primitivo debe evaluar proveedores de soluciones cloud nativas.", "label": "TAREA"}
+{"text": "Primitivo requiere evaluar proveedores de soluciones cloud nativas.", "label": "TAREA"}
+{"text": "Primitivo necesita evaluar proveedores de soluciones cloud nativas.", "label": "TAREA"}
+{"text": "Primitivo necesita evaluar proveedores de soluciones cloud nativas.", "label": "TAREA"}
+{"text": "Se discutieron iniciativas de diversidad e inclusión.", "label": "NO_TAREA"}
+{"text": "Rebeca tiene que desarrollar la estrategia de DEI corporativa.", "label": "TAREA"}
+{"text": "Los datos muestran oportunidades de mejora importantes.", "label": "NO_TAREA"}
+{"text": "Samir debe establecer objetivos medibles de diversidad.", "label": "TAREA"}
+{"text": "Samir requiere establecer objetivos medibles de diversidad.", "label": "TAREA"}
+{"text": "Samir necesita establecer objetivos medibles de diversidad.", "label": "TAREA"}
+{"text": "Samir necesita establecer objetivos medibles de diversidad.", "label": "TAREA"}
+{"text": "Se formará un comité de diversidad e inclusión.", "label": "NO_TAREA"}
+{"text": "Fátima coordinará la implementación de hot desking en las oficinas.", "label": "TAREA"}
+{"text": "El espacio de oficina se optimizará según ocupación real.", "label": "NO_TAREA"}
+{"text": "Gilberto preparará el sistema de reserva de espacios de trabajo.", "label": "TAREA"}
+{"text": "Se realizó un estudio de utilización del espacio actual.", "label": "NO_TAREA"}
+{"text": "Hilda debe rediseñar el layout de las oficinas corporativas.", "label": "TAREA"}
+{"text": "Hilda está obligado a rediseñar el layout de las oficinas corporativas.", "label": "TAREA"}
+{"text": "Hilda tiene que rediseñar el layout de las oficinas corporativas.", "label": "TAREA"}
+{"text": "Hilda requiere rediseñar el layout de las oficinas corporativas.", "label": "TAREA"}
+{"text": "Se discutieron las prioridades para el siguiente quarter.", "label": "NO_TAREA"}
+{"text": "Emilio coordinará con product management la definición de features.", "label": "TAREA"}
+{"text": "Los OKRs del trimestre fueron revisados y ajustados.", "label": "NO_TAREA"}
+{"text": "Sandra tiene que preparar la retrospectiva del sprint antes del viernes.", "label": "TAREA"}
+{"text": "Sandra tiene que elaborar la retrospectiva del sprint anticipadamente del viernes.", "label": "TAREA"}
+{"text": "Sandra tiene que confeccionar la retrospectiva del sprint anticipadamente del viernes.", "label": "TAREA"}
+{"text": "Sandra tiene que desarrollar la retrospectiva del sprint con anterioridad a del viernes.", "label": "TAREA"}
+{"text": "Se analizaron las métricas de velocity del equipo.", "label": "NO_TAREA"}
