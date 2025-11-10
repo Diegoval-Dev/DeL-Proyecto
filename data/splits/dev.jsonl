@@ -1,0 +1,86 @@
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 0, "text": "Juan tiene miedo de presentar el informe ante la junta.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 1, "text": "María tiene miedo de hablar en público.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 2, "text": "Carlos está preocupado por los cambios en la organización.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 3, "text": "Ana está preocupado por el presupuesto del próximo año.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 4, "text": "Pedro teme presentar los resultados.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"doc_id": "tricky_neg_sentimientos_0", "sent_id": 5, "text": "Laura teme implementar los cambios.", "label": "NO_TAREA", "note": "Generated: sentimientos"}
+{"tipo": "clara", "text": "Carlos revisará el código antes del próximo sprint", "label": "TAREA", "responsable_gold": "Carlos", "fecha_gold": "2023-04-15", "doc_id": "llm_generated_002", "sent_id": 0, "source": "llm_augmentation", "seed_example": "Pedro revisará el código antes del próximo sprint"}
+{"tipo": "impersonal", "text": "Revisar el código antes del próximo sprint", "label": "TAREA", "responsable_gold": "pendiente de asignar", "fecha_gold": "2023-04-15", "doc_id": "llm_generated_002", "sent_id": 1, "source": "llm_augmentation", "seed_example": "Pedro revisará el código antes del próximo sprint"}
+{"tipo": "pasiva", "text": "Se acordó que se revise el código antes del próximo sprint", "label": "TAREA", "responsable_gold": "pendiente de asignar", "fecha_gold": "2023-04-15", "doc_id": "llm_generated_002", "sent_id": 2, "source": "llm_augmentation", "seed_example": "Pedro revisará el código antes del próximo sprint"}
+{"tipo": "subordinada", "text": "Después de que Ana termine la revisión, Juan debe revisar el código antes del próximo sprint", "label": "TAREA", "responsable_gold": "Juan", "fecha_gold": "2023-04-15", "doc_id": "llm_generated_002", "sent_id": 3, "source": "llm_augmentation", "seed_example": "Pedro revisará el código antes del próximo sprint"}
+{"tipo": "implícita", "text": "Quedó pendiente revisar el código", "label": "NO_TAREA", "responsable_gold": "pendiente de asignar", "fecha_gold": null, "doc_id": "llm_generated_002", "sent_id": 4, "source": "llm_augmentation", "seed_example": "Pedro revisará el código antes del próximo sprint"}
+{"doc_id": "email_029", "sent_id": 0, "text": "Iñigo tiene que evaluar soluciones de videoconferencia enterprise.", "label": "TAREA", "responsable_gold": "Iñigo"}
+{"doc_id": "email_029", "sent_id": 1, "text": "La tecnología actual no escala para toda la organización.", "label": "NO_TAREA"}
+{"doc_id": "email_029", "sent_id": 2, "text": "Por favor, solicita demos de los proveedores shortlisted antes del martes.", "label": "TAREA", "fecha_gold": "2025-11-12"}
+{"doc_id": "email_029", "sent_id": 3, "text": "Se requieren capacidades de grabación y transcripción.", "label": "NO_TAREA"}
+{"doc_id": "email_029", "sent_id": 4, "text": "Jana debe preparar la matriz de evaluación de vendors.", "label": "TAREA", "responsable_gold": "Jana"}
+{"doc_id": "email_006", "sent_id": 0, "text": "Se completó la revisión del código por parte del equipo senior.", "label": "NO_TAREA"}
+{"doc_id": "email_006", "sent_id": 1, "text": "Beatriz coordinará el onboarding de los nuevos empleados.", "label": "TAREA", "responsable_gold": "Beatriz"}
+{"doc_id": "email_006", "sent_id": 2, "text": "Los resultados de la encuesta de clima laboral fueron positivos.", "label": "NO_TAREA"}
+{"doc_id": "email_006", "sent_id": 3, "text": "Necesitas programar las sesiones de feedback con tu equipo esta semana.", "label": "TAREA", "fecha_gold": "2025-11-15"}
+{"doc_id": "email_006", "sent_id": 4, "text": "Guillermo debe enviar el reporte de horas trabajadas antes del viernes.", "label": "TAREA", "responsable_gold": "Guillermo", "fecha_gold": "2025-11-15"}
+{"doc_id": "email_033", "sent_id": 0, "text": "Se aprobó la inversión en nueva maquinaria automatizada.", "label": "NO_TAREA"}
+{"doc_id": "email_033", "sent_id": 1, "text": "Kenia coordinará la instalación y puesta en marcha de los equipos.", "label": "TAREA", "responsable_gold": "Kenia"}
+{"doc_id": "email_033", "sent_id": 2, "text": "El proveedor garantiza entrega en seis semanas.", "label": "NO_TAREA"}
+{"doc_id": "email_033", "sent_id": 3, "text": "Necesitas planificar la capacitación de operadores antes de la instalación.", "label": "TAREA"}
+{"doc_id": "email_033", "sent_id": 4, "text": "Lisandro debe preparar el layout actualizado de la planta.", "label": "TAREA", "responsable_gold": "Lisandro"}
+{"doc_id": "email_004", "sent_id": 0, "text": "Camila coordinará la sesión de brainstorming para el nuevo producto.", "label": "TAREA", "responsable_gold": "Camila"}
+{"doc_id": "email_004", "sent_id": 1, "text": "Las ventas del último mes superaron las expectativas.", "label": "NO_TAREA"}
+{"doc_id": "email_004", "sent_id": 2, "text": "Necesito que valides los números del reporte financiero hoy.", "label": "TAREA", "fecha_gold": "2025-11-08"}
+{"doc_id": "email_004", "sent_id": 3, "text": "Se recibieron múltiples comentarios positivos de los clientes.", "label": "NO_TAREA"}
+{"doc_id": "email_004", "sent_id": 4, "text": "Mauricio enviará la propuesta comercial al cliente antes del mediodía.", "label": "TAREA", "responsable_gold": "Mauricio", "fecha_gold": "2025-11-08"}
+{"doc_id": "email_030", "sent_id": 0, "text": "Se firmó el acuerdo de colaboración con la universidad.", "label": "NO_TAREA"}
+{"doc_id": "email_030", "sent_id": 1, "text": "Petra coordinará el programa de prácticas profesionales.", "label": "TAREA", "responsable_gold": "Petra"}
+{"doc_id": "email_030", "sent_id": 2, "text": "La alianza permitirá acceso a talento joven.", "label": "NO_TAREA"}
+{"doc_id": "email_030", "sent_id": 3, "text": "Necesitas definir los proyectos para asignar a practicantes.", "label": "TAREA"}
+{"doc_id": "email_030", "sent_id": 4, "text": "Quintín debe preparar el programa de inducción para practicantes.", "label": "TAREA", "responsable_gold": "Quintín"}
+{"doc_id": "email_022", "sent_id": 0, "text": "Hilario tiene que revisar los KPIs de cada área antes de la junta.", "label": "TAREA", "responsable_gold": "Hilario"}
+{"doc_id": "email_022", "sent_id": 1, "text": "Los indicadores del mes superaron las metas establecidas.", "label": "NO_TAREA"}
+{"doc_id": "email_022", "sent_id": 2, "text": "Por favor, prepara el dashboard ejecutivo antes del martes.", "label": "TAREA", "fecha_gold": "2025-11-12"}
+{"doc_id": "email_022", "sent_id": 3, "text": "Se detectaron tendencias positivas en todos los frentes.", "label": "NO_TAREA"}
+{"doc_id": "email_022", "sent_id": 4, "text": "Jacinta debe actualizar los objetivos del próximo periodo.", "label": "TAREA", "responsable_gold": "Jacinta"}
+{"doc_id": "email_019", "sent_id": 0, "text": "Samuel tiene que revisar las pólizas de seguro de la empresa.", "label": "TAREA", "responsable_gold": "Samuel"}
+{"doc_id": "email_019", "sent_id": 1, "text": "Las coberturas actuales están vigentes y al día.", "label": "NO_TAREA"}
+{"doc_id": "email_019", "sent_id": 2, "text": "Por favor, solicita cotizaciones para renovar los seguros antes del lunes.", "label": "TAREA", "fecha_gold": "2025-11-11"}
+{"doc_id": "email_019", "sent_id": 3, "text": "Se evaluó el historial de siniestralidad de la compañía.", "label": "NO_TAREA"}
+{"doc_id": "email_019", "sent_id": 4, "text": "Karina debe coordinar la capacitación en prevención de riesgos laborales.", "label": "TAREA", "responsable_gold": "Karina"}
+{"doc_id": "email_023", "sent_id": 0, "text": "Se completó la actualización del sitio de intranet corporativa.", "label": "NO_TAREA"}
+{"doc_id": "email_023", "sent_id": 1, "text": "Querubina coordinará la comunicación del lanzamiento interno.", "label": "TAREA", "responsable_gold": "Querubina"}
+{"doc_id": "email_023", "sent_id": 2, "text": "Los empleados han expresado satisfacción con la nueva interfaz.", "label": "NO_TAREA"}
+{"doc_id": "email_023", "sent_id": 3, "text": "Necesitas publicar el anuncio en todos los canales mañana.", "label": "TAREA", "fecha_gold": "2025-11-09"}
+{"doc_id": "email_023", "sent_id": 4, "text": "Socorro debe monitorear la adopción de la nueva intranet.", "label": "TAREA", "responsable_gold": "Socorro"}
+{"doc_id": "acta_024", "sent_id": 0, "text": "Se habló sobre la necesidad de mejorar la experiencia móvil.", "label": "NO_TAREA"}
+{"doc_id": "acta_024", "sent_id": 1, "text": "Luz tiene que diseñar la versión responsive del sitio web.", "label": "TAREA", "responsable_gold": "Luz"}
+{"doc_id": "acta_024", "sent_id": 2, "text": "Los usuarios móviles representan el 60% del tráfico.", "label": "NO_TAREA"}
+{"doc_id": "acta_024", "sent_id": 3, "text": "Iván debe implementar las media queries para diferentes dispositivos.", "label": "TAREA", "responsable_gold": "Iván"}
+{"doc_id": "acta_024", "sent_id": 4, "text": "Se analizaron los patrones de uso en diferentes plataformas.", "label": "NO_TAREA"}
+{"doc_id": "email_013", "sent_id": 0, "text": "Gustavo tiene que analizar los datos de conversión del funnel.", "label": "TAREA", "responsable_gold": "Gustavo"}
+{"doc_id": "email_013", "sent_id": 1, "text": "La tasa de conversión aumentó un 15% este mes.", "label": "NO_TAREA"}
+{"doc_id": "email_013", "sent_id": 2, "text": "Por favor, genera el reporte de ROI de las campañas antes del martes.", "label": "TAREA", "fecha_gold": "2025-11-12"}
+{"doc_id": "email_013", "sent_id": 3, "text": "Se identificaron oportunidades de optimización en el checkout.", "label": "NO_TAREA"}
+{"doc_id": "email_013", "sent_id": 4, "text": "Estrella debe configurar los eventos de tracking en Google Analytics.", "label": "TAREA", "responsable_gold": "Estrella"}
+{"doc_id": "acta_055", "sent_id": 0, "text": "Yosef coordinará las sesiones de sensibilización sobre el cambio.", "label": "TAREA", "responsable_gold": "Yosef"}
+{"doc_id": "acta_055", "sent_id": 1, "text": "El modelo ADKAR será utilizado como framework.", "label": "NO_TAREA"}
+{"doc_id": "acta_055", "sent_id": 2, "text": "Zulema preparará los materiales de capacitación para la transición.", "label": "TAREA", "responsable_gold": "Zulema"}
+{"doc_id": "acta_055", "sent_id": 3, "text": "Se establecieron métricas para medir la adopción del cambio.", "label": "NO_TAREA"}
+{"doc_id": "acta_055", "sent_id": 4, "text": "Aarón debe monitorear la resistencia al cambio y escalar issues.", "label": "TAREA", "responsable_gold": "Aarón"}
+{"doc_id": "email_016", "sent_id": 0, "text": "Se recibieron comentarios muy positivos sobre el soporte técnico.", "label": "NO_TAREA"}
+{"doc_id": "email_016", "sent_id": 1, "text": "Alicia coordinará las sesiones de soporte avanzado para clientes enterprise.", "label": "TAREA", "responsable_gold": "Alicia"}
+{"doc_id": "email_016", "sent_id": 2, "text": "El NPS de los clientes mejoró en 20 puntos.", "label": "NO_TAREA"}
+{"doc_id": "email_016", "sent_id": 3, "text": "Necesitas revisar y responder los casos escalados antes del viernes.", "label": "TAREA", "fecha_gold": "2025-11-15"}
+{"doc_id": "email_016", "sent_id": 4, "text": "César debe actualizar el manual de procedimientos de soporte.", "label": "TAREA", "responsable_gold": "César"}
+{"doc_id": "acta_019", "sent_id": 0, "text": "Álvaro tiene que configurar el monitoreo de la aplicación en producción.", "label": "TAREA", "responsable_gold": "Álvaro"}
+{"doc_id": "acta_019", "sent_id": 1, "text": "El sistema ha mantenido un uptime del 99.9% este mes.", "label": "NO_TAREA"}
+{"doc_id": "acta_019", "sent_id": 2, "text": "Rosa preparará los alertas para detectar anomalías en tiempo real.", "label": "TAREA", "responsable_gold": "Rosa"}
+{"doc_id": "acta_019", "sent_id": 3, "text": "Se analizaron los logs de la semana anterior.", "label": "NO_TAREA"}
+{"doc_id": "acta_019", "sent_id": 4, "text": "Esteban debe optimizar las consultas lentas de la base de datos.", "label": "TAREA", "responsable_gold": "Esteban"}
+{"doc_id": "acta_032", "sent_id": 0, "text": "Se presentó el plan de expansión internacional.", "label": "NO_TAREA"}
+{"doc_id": "acta_032", "sent_id": 1, "text": "Delia tiene que investigar los requisitos legales en los nuevos mercados.", "label": "TAREA", "responsable_gold": "Delia"}
+{"doc_id": "acta_032", "sent_id": 2, "text": "El análisis de viabilidad mostró gran potencial.", "label": "NO_TAREA"}
+{"doc_id": "acta_032", "sent_id": 3, "text": "Saúl debe preparar el análisis competitivo de cada región.", "label": "TAREA", "responsable_gold": "Saúl"}
+{"doc_id": "acta_032", "sent_id": 4, "text": "Se evaluaron diferentes modelos de entrada al mercado.", "label": "NO_TAREA"}
+{"doc_id": "acta_028", "sent_id": 0, "text": "Se presentaron las proyecciones de ventas para el próximo año.", "label": "NO_TAREA"}
+{"doc_id": "acta_028", "sent_id": 1, "text": "Norma tiene que preparar el plan comercial del primer trimestre.", "label": "TAREA", "responsable_gold": "Norma"}
+{"doc_id": "acta_028", "sent_id": 2, "text": "Los objetivos de ventas fueron ajustados según el mercado.", "label": "NO_TAREA"}
+{"doc_id": "acta_028", "sent_id": 3, "text": "Arturo debe actualizar el forecast mensual antes del lunes.", "label": "TAREA", "responsable_gold": "Arturo", "fecha_gold": "2025-11-11"}
+{"doc_id": "acta_028", "sent_id": 4, "text": "Se analizaron los resultados del equipo comercial.", "label": "NO_TAREA"}
