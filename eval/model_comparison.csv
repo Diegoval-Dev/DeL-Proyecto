@@ -1,0 +1,7 @@
+Experimento,Modelo,F1 (dev),Accuracy,Precision,Recall,Latencia (ms)
+Exp1: Embeddings+LogReg,sentence_similarity_spanish_es,1.0,1.0,1.0,1.0,0.0014368693033854165
+Exp2: BERT Fine-tuning,bert-base-multilingual-cased,1.0,1.0,1.0,1.0,0.0
+Exp3: Ensemble,Soft Voting (3 modelos),1.0,0.0,0.0,0.0,0.0
+Exp1: Embeddings+LogReg,distiluse-base-multilingual-cased-v2,0.9879518072289156,0.9866666666666667,0.9761904761904762,1.0,0.0009091695149739584
+Exp1: Embeddings+LogReg,paraphrase-multilingual-MiniLM-L12-v2,0.9876543209876543,0.9866666666666667,1.0,0.975609756097561,0.000896453857421875
+Exp2: BERT Fine-tuning,bert-base-spanish-wwm-cased,0.9876543209876543,0.9866666666666667,1.0,0.975609756097561,0.0

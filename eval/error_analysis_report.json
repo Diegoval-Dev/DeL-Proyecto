@@ -1,0 +1,11 @@
+{
+  "false_positives": [],
+  "false_negatives": [],
+  "fp_rate": 0.0,
+  "fn_rate": 0.0,
+  "recommendations": {
+    "add_tricky_negatives": false,
+    "adjust_threshold": false,
+    "add_more_tasks": false
+  }
+}

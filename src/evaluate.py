@@ -1,7 +1,12 @@
 import json, pandas as pd
+import sys
 from pathlib import Path
 from sklearn.metrics import f1_score, classification_report
-from src.infer_classifier import SentenceTaskClassifier
+
+# Agregar src al path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from infer_classifier import SentenceTaskClassifier
 
 def load_jsonl(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -22,8 +27,8 @@ def main(test_path="data/annotations/test.jsonl", model_dir="models"):
 
     df = pd.DataFrame(data)
     if {"responsable_gold","fecha_gold"}.issubset(df.columns):
-        from src.ner_extract import extract_person_responsable
-        from src.date_extract import extract_date_iso
+        from ner_extract import extract_person_responsable
+        from date_extract import extract_date_iso
         resp_pred = []
         date_pred = []
         for t in texts:
@@ -42,4 +47,7 @@ def main(test_path="data/annotations/test.jsonl", model_dir="models"):
         print(f"Exact-Match Fecha (cuando hay gold): {date_em:.3f}")
 
 if __name__ == "__main__":
-    main()
+    import sys
+    test_path = sys.argv[1] if len(sys.argv) > 1 else "data/splits/test.jsonl"
+    model_dir = sys.argv[2] if len(sys.argv) > 2 else "models/best_baseline"
+    main(test_path, model_dir)

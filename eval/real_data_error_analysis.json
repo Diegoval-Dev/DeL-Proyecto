@@ -1,0 +1,55 @@
+{
+  "false_positives": [],
+  "false_negatives": [],
+  "correct_predictions": [
+    {
+      "sent_id": 0,
+      "text": "El día de Noviembre de 2025 se llevó a cabo una reunión del equipo de trabajo de planificar las actividades para el próximo semestre.",
+      "label_gold": "NO_TAREA",
+      "notes": "Verbo en pasado, evento ya ocurrido, no es tarea futura",
+      "score": 0.4783039714233279,
+      "predicted": "NO_TAREA"
+    },
+    {
+      "sent_id": 1,
+      "text": "Durante la sesión se revisaron los avances de los proyectos en curso y se asignaron nuevas tareas a los miembros del equipo; también se entregó para cada actividad.",
+      "label_gold": "NO_TAREA",
+      "notes": "Reporte de lo que pasó en la reunión, no acción futura",
+      "score": 0.15919528998107482,
+      "predicted": "NO_TAREA"
+    },
+    {
+      "sent_id": 2,
+      "text": "Se acordó que Ana Rodríguez será la encargada de preparar el informe de desempeño mensual, con fecha límite para el 11/11/2025.",
+      "label_gold": "TAREA",
+      "notes": "Acción futura clara con responsable y fecha",
+      "score": 0.8322190592771364,
+      "predicted": "TAREA"
+    },
+    {
+      "sent_id": 3,
+      "text": "Asimismo, Carlos Méndez asumirá la tarea de actualizar la base de datos de clientes, cuyo plazo final será el 13/11/2025.",
+      "label_gold": "TAREA",
+      "notes": "Acción futura clara con responsable y fecha",
+      "score": 0.7028832739934661,
+      "predicted": "TAREA"
+    },
+    {
+      "sent_id": 4,
+      "text": "Asimismo, Laura Pérez se encargará de preparar la presentación para la junta directiva, la cual deberá estar lista el 14/11/2025.",
+      "label_gold": "TAREA",
+      "notes": "Acción futura clara con responsable y fecha",
+      "score": 0.950057439537378,
+      "predicted": "TAREA"
+    },
+    {
+      "sent_id": 5,
+      "text": "Finalmente, se estableció que la próxima reunión de seguimiento se realizará el día 15 de noviembre, donde se evaluará el cumplimiento de las tareas asignadas y se definirán las acciones en función de los resultados obtenidos.",
+      "label_gold": "NO_TAREA",
+      "notes": "Reunión futura, pero no hay responsable específico ni acción clara asignada a alguien",
+      "score": 0.5724163787659319,
+      "predicted": "NO_TAREA"
+    }
+  ],
+  "patterns": {}
+}
